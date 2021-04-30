@@ -1,0 +1,4564 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+firstw = Instance.new("Sound")
+first2 = 6518836794
+firstw.Parent = workspace
+firstw.SoundId = "rbxassetid://"..first2
+
+
+
+
+ss =  game.Workspace["Criminals Spawn"].SpawnLocation
+click = Instance.new("Sound")
+firstrunmusic1 = 395321405
+
+click.Parent = game.Workspace
+
+click.SoundId = "rbxassetid://"..firstrunmusic1
+
+
+r = Instance.new("Sound")
+firstrunmusic1 = 213037149
+
+r.Parent = game.Workspace 
+
+r.SoundId = "rbxassetid://"..firstrunmusic1
+
+rew = Instance.new("Sound")
+u = 5852311745
+
+rew.Parent = game.Workspace 
+
+rew.SoundId = "rbxassetid://"..u
+
+q = Instance.new("Sound")
+i = 2193279623
+
+q.Parent = game.Workspace 
+
+q.SoundId = "rbxassetid://"..i
+
+local yu = Instance.new("Sound")
+local es = 876939830
+
+yu.Parent = game.Workspace 
+
+yu.SoundId = "rbxassetid://"..es
+local ScreenGui = Instance.new("ScreenGui")
+local FIRST = Instance.new("ImageLabel")
+local Player = Instance.new("TextBox")
+local TextBox_Roundify_12px = Instance.new("ImageLabel")
+local SPEC = Instance.new("TextButton")
+local SPEC_Roundify_12px = Instance.new("ImageLabel")
+local goto = Instance.new("TextButton")
+local goto_Roundify_12px = Instance.new("ImageLabel")
+local crim = Instance.new("TextButton")
+local crim_Roundify_12px = Instance.new("ImageLabel")
+local lag = Instance.new("TextButton")
+local lag_Roundify_12px = Instance.new("ImageLabel")
+local arrest = Instance.new("TextButton")
+local arrest_Roundify_12px = Instance.new("ImageLabel")
+local kill = Instance.new("TextButton")
+local kill_Roundify_12px = Instance.new("ImageLabel")
+local returnb = Instance.new("TextButton")
+local returnb_Roundify_12px = Instance.new("ImageLabel")
+local Lable1 = Instance.new("TextLabel")
+local UIGradient = Instance.new("UIGradient")
+local target = Instance.new("TextButton")
+local target_Roundify_12px = Instance.new("ImageLabel")
+local server = Instance.new("TextButton")
+local server_Roundify_12px = Instance.new("ImageLabel")
+local client = Instance.new("TextButton")
+local client_Roundify_12px = Instance.new("ImageLabel")
+local kicount = Instance.new("TextLabel")
+local kicount_Roundify_12px = Instance.new("ImageLabel")
+local SPECtwo = Instance.new("TextButton")
+local SPECtwo_Roundify_12px = Instance.new("ImageLabel")
+local Playertwo = Instance.new("TextBox")
+local Playertwo_Roundify_12px = Instance.new("ImageLabel")
+local gototwo = Instance.new("TextButton")
+local gototwo_Roundify_12px = Instance.new("ImageLabel")
+local crimtwo = Instance.new("TextButton")
+local crimtwo_Roundify_12px = Instance.new("ImageLabel")
+local UIGradient_2 = Instance.new("UIGradient")
+local lagtwo = Instance.new("TextButton")
+local lagtwo_Roundify_12px = Instance.new("ImageLabel")
+local arresttwo = Instance.new("TextButton")
+local arresttwo_Roundify_12px = Instance.new("ImageLabel")
+local killtwo = Instance.new("TextButton")
+local killtwo_Roundify_12px = Instance.new("ImageLabel")
+local returnbtwo = Instance.new("TextButton")
+local returnbtwo_Roundify_12px = Instance.new("ImageLabel")
+local bring = Instance.new("TextButton")
+local bring_Roundify_12px = Instance.new("ImageLabel")
+local bringtwo = Instance.new("TextButton")
+local bringtwo_Roundify_12px = Instance.new("ImageLabel")
+local THIRD = Instance.new("ImageLabel")
+local targetthree = Instance.new("TextButton")
+local targetthree_Roundify_12px = Instance.new("ImageLabel")
+local clientthree = Instance.new("TextButton")
+local clientthree_Roundify_12px = Instance.new("ImageLabel")
+local serverthree = Instance.new("TextButton")
+local serverthree_Roundify_12px = Instance.new("ImageLabel")
+local label3 = Instance.new("TextLabel")
+local UIGradient_3 = Instance.new("UIGradient")
+local guns = Instance.new("TextButton")
+local guns_Roundify_12px = Instance.new("ImageLabel")
+local killaura = Instance.new("TextButton")
+local killaura_Roundify_12px = Instance.new("ImageLabel")
+local reset = Instance.new("TextButton")
+local reset_Roundify_12px = Instance.new("ImageLabel")
+local fstwalk = Instance.new("TextButton")
+local fstwalk_Roundify_12px = Instance.new("ImageLabel")
+local oneshot = Instance.new("TextButton")
+local oneshot_Roundify_12px = Instance.new("ImageLabel")
+local arrestall = Instance.new("TextButton")
+local arrestall_Roundify_12px = Instance.new("ImageLabel")
+local killall = Instance.new("TextButton")
+local killall_Roundify_12px = Instance.new("ImageLabel")
+local delmesh = Instance.new("TextButton")
+local delmesh_Roundify_12px = Instance.new("ImageLabel")
+local nohat = Instance.new("TextButton")
+local nohat_Roundify_12px = Instance.new("ImageLabel")
+local UIGradient_4 = Instance.new("UIGradient")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_Roundify_12px = Instance.new("ImageLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_Roundify_12px_2 = Instance.new("ImageLabel")
+local crimkillaura = Instance.new("TextButton")
+local crimkillaura_Roundify_12px = Instance.new("ImageLabel")
+local guardkillaura = Instance.new("TextButton")
+local guardkillaura_Roundify_12px = Instance.new("ImageLabel")
+local inmatekillaura = Instance.new("TextButton")
+local inmatekillaura_Roundify_12px = Instance.new("ImageLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local rejoinb = Instance.new("TextButton")
+local rejoinb_Roundify_12px = Instance.new("ImageLabel")
+local up = Instance.new("TextButton")
+local up_Roundify_12px = Instance.new("ImageLabel")
+local down = Instance.new("TextButton")
+local down_Roundify_12px = Instance.new("ImageLabel")
+local lagnum = Instance.new("TextLabel")
+local lagnum_Roundify_12px = Instance.new("ImageLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local SECOND = Instance.new("ImageLabel")
+local UIGradient_5 = Instance.new("UIGradient")
+local targettwo = Instance.new("TextButton")
+local targettwo_Roundify_12px = Instance.new("ImageLabel")
+local servertwo = Instance.new("TextButton")
+local servertwo_Roundify_12px = Instance.new("ImageLabel")
+local clienttwo = Instance.new("TextButton")
+local clienttwo_Roundify_12px = Instance.new("ImageLabel")
+local EARST = Instance.new("TextButton")
+local EARST_Roundify_12px = Instance.new("ImageLabel")
+local stspam = Instance.new("TextButton")
+local stspam_Roundify_12px = Instance.new("ImageLabel")
+local hitboxes = Instance.new("TextButton")
+local hitboxes_Roundify_12px = Instance.new("ImageLabel")
+local gmode = Instance.new("TextButton")
+local gmode_Roundify_12px = Instance.new("ImageLabel")
+local antispam = Instance.new("TextButton")
+local antispam_Roundify_12px = Instance.new("ImageLabel")
+local ctrldel = Instance.new("TextButton")
+local ctrldel_Roundify_12px = Instance.new("ImageLabel")
+local guards = Instance.new("TextButton")
+local guards_Roundify_12px = Instance.new("ImageLabel")
+local inamte = Instance.new("TextButton")
+local inamte_Roundify_12px = Instance.new("ImageLabel")
+local fstrun = Instance.new("TextButton")
+local fstrun_Roundify_12px = Instance.new("ImageLabel")
+local intres = Instance.new("TextButton")
+local intres_Roundify_12px = Instance.new("ImageLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_Roundify_12px_3 = Instance.new("ImageLabel")
+local roof = Instance.new("TextButton")
+local roof_Roundify_12px = Instance.new("ImageLabel")
+local onepunch = Instance.new("TextButton")
+local onepunch_Roundify_12px = Instance.new("ImageLabel")
+local neutral = Instance.new("TextButton")
+local neutral_Roundify_12px = Instance.new("ImageLabel")
+local criminal = Instance.new("TextButton")
+local criminal_Roundify_12px = Instance.new("ImageLabel")
+local label2 = Instance.new("TextLabel")
+local UIGradient_6 = Instance.new("UIGradient")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_Roundify_12px_4 = Instance.new("ImageLabel")
+local base = Instance.new("TextButton")
+local base_Roundify_12px = Instance.new("ImageLabel")
+local tower = Instance.new("TextButton")
+local tower_Roundify_12px = Instance.new("ImageLabel")
+local nex = Instance.new("TextButton")
+local nex_Roundify_12px = Instance.new("ImageLabel")
+local TextButton = Instance.new("TextButton")
+local infjumpround = Instance.new("ImageLabel")
+local notiflabel = Instance.new("TextLabel")
+local notiflabel_Roundify_12px = Instance.new("ImageLabel")
+local servernumslbl = Instance.new("TextLabel")
+local servernumslbl_Roundify_12px = Instance.new("ImageLabel")
+local deaserver = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+FIRST.Name = "FIRST"
+FIRST.Parent = ScreenGui
+FIRST.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FIRST.BackgroundTransparency = 1.000
+FIRST.Position = UDim2.new(-0.203999996, 0, 0.683000028, 0)
+FIRST.Size = UDim2.new(0, 406, 0, 270)
+FIRST.Image = "rbxassetid://3570695787"
+FIRST.ImageColor3 = Color3.fromRGB(85, 0, 255)
+FIRST.ImageTransparency = 0.500
+FIRST.ScaleType = Enum.ScaleType.Slice
+FIRST.SliceCenter = Rect.new(100, 100, 100, 100)
+
+Player.Name = "Player"
+Player.Parent = FIRST
+Player.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Player.BackgroundTransparency = 1.000
+Player.BorderSizePixel = 0
+Player.Position = UDim2.new(0.0747698992, 0, 0.163863838, 0)
+Player.Size = UDim2.new(0, 146, 0, 26)
+Player.Font = Enum.Font.ArialBold
+Player.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Player.PlaceholderText = "TAREGET.NAME"
+Player.Text = ""
+Player.TextColor3 = Color3.fromRGB(255, 255, 255)
+Player.TextSize = 14.000
+
+TextBox_Roundify_12px.Name = "TextBox_Roundify_12px"
+TextBox_Roundify_12px.Parent = Player
+TextBox_Roundify_12px.Active = true
+TextBox_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+TextBox_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_Roundify_12px.BackgroundTransparency = 1.000
+TextBox_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextBox_Roundify_12px.Selectable = true
+TextBox_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+TextBox_Roundify_12px.Image = "rbxassetid://3570695787"
+TextBox_Roundify_12px.ImageColor3 = Color3.fromRGB(170, 0, 255)
+TextBox_Roundify_12px.ImageTransparency = 0.700
+TextBox_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+TextBox_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+SPEC.Name = "SPEC"
+SPEC.Parent = FIRST
+SPEC.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SPEC.BackgroundTransparency = 1.000
+SPEC.BorderSizePixel = 0
+SPEC.Position = UDim2.new(0.0501392744, 0, 0.334639251, 0)
+SPEC.Size = UDim2.new(0, 82, 0, 32)
+SPEC.Font = Enum.Font.ArialBold
+SPEC.Text = "SPECTATE"
+SPEC.TextColor3 = Color3.fromRGB(255, 255, 255)
+SPEC.TextSize = 14.000
+
+SPEC_Roundify_12px.Name = "SPEC_Roundify_12px"
+SPEC_Roundify_12px.Parent = SPEC
+SPEC_Roundify_12px.Active = true
+SPEC_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+SPEC_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SPEC_Roundify_12px.BackgroundTransparency = 1.000
+SPEC_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+SPEC_Roundify_12px.Selectable = true
+SPEC_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+SPEC_Roundify_12px.Image = "rbxassetid://3570695787"
+SPEC_Roundify_12px.ImageTransparency = 0.700
+SPEC_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+SPEC_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+goto.Name = "goto"
+goto.Parent = FIRST
+goto.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+goto.BackgroundTransparency = 1.000
+goto.BorderSizePixel = 0
+goto.Position = UDim2.new(0.262429774, 0, 0.793354869, 0)
+goto.Size = UDim2.new(0, 82, 0, 32)
+goto.Font = Enum.Font.ArialBold
+goto.Text = "GOTO"
+goto.TextColor3 = Color3.fromRGB(255, 255, 255)
+goto.TextSize = 14.000
+
+goto_Roundify_12px.Name = "goto_Roundify_12px"
+goto_Roundify_12px.Parent = goto
+goto_Roundify_12px.Active = true
+goto_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+goto_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+goto_Roundify_12px.BackgroundTransparency = 1.000
+goto_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+goto_Roundify_12px.Selectable = true
+goto_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+goto_Roundify_12px.Image = "rbxassetid://3570695787"
+goto_Roundify_12px.ImageTransparency = 0.700
+goto_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+goto_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+crim.Name = "crim"
+crim.Parent = FIRST
+crim.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+crim.BackgroundTransparency = 1.000
+crim.BorderSizePixel = 0
+crim.Position = UDim2.new(0.0501392744, 0, 0.793354869, 0)
+crim.Size = UDim2.new(0, 82, 0, 32)
+crim.Font = Enum.Font.ArialBold
+crim.Text = "CRIM"
+crim.TextColor3 = Color3.fromRGB(255, 255, 255)
+crim.TextSize = 14.000
+
+crim_Roundify_12px.Name = "crim_Roundify_12px"
+crim_Roundify_12px.Parent = crim
+crim_Roundify_12px.Active = true
+crim_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+crim_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+crim_Roundify_12px.BackgroundTransparency = 1.000
+crim_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+crim_Roundify_12px.Selectable = true
+crim_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+crim_Roundify_12px.Image = "rbxassetid://3570695787"
+crim_Roundify_12px.ImageTransparency = 0.700
+crim_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+crim_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+lag.Name = "lag"
+lag.Parent = FIRST
+lag.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+lag.BackgroundTransparency = 1.000
+lag.BorderSizePixel = 0
+lag.Position = UDim2.new(0.0501392744, 0, 0.64470619, 0)
+lag.Size = UDim2.new(0, 82, 0, 32)
+lag.Font = Enum.Font.ArialBold
+lag.Text = "LAG:FLS"
+lag.TextColor3 = Color3.fromRGB(255, 255, 255)
+lag.TextSize = 14.000
+
+lag_Roundify_12px.Name = "lag_Roundify_12px"
+lag_Roundify_12px.Parent = lag
+lag_Roundify_12px.Active = true
+lag_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+lag_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+lag_Roundify_12px.BackgroundTransparency = 1.000
+lag_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+lag_Roundify_12px.Selectable = true
+lag_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+lag_Roundify_12px.Image = "rbxassetid://3570695787"
+lag_Roundify_12px.ImageColor3 = Color3.fromRGB(255, 0, 0)
+lag_Roundify_12px.ImageTransparency = 0.700
+lag_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+lag_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+arrest.Name = "arrest"
+arrest.Parent = FIRST
+arrest.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+arrest.BackgroundTransparency = 1.000
+arrest.BorderSizePixel = 0
+arrest.Position = UDim2.new(0.26462394, 0, 0.486312926, 0)
+arrest.Size = UDim2.new(0, 82, 0, 32)
+arrest.Font = Enum.Font.ArialBold
+arrest.Text = "ARREST"
+arrest.TextColor3 = Color3.fromRGB(255, 255, 255)
+arrest.TextSize = 14.000
+
+arrest_Roundify_12px.Name = "arrest_Roundify_12px"
+arrest_Roundify_12px.Parent = arrest
+arrest_Roundify_12px.Active = true
+arrest_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+arrest_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+arrest_Roundify_12px.BackgroundTransparency = 1.000
+arrest_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+arrest_Roundify_12px.Selectable = true
+arrest_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+arrest_Roundify_12px.Image = "rbxassetid://3570695787"
+arrest_Roundify_12px.ImageColor3 = Color3.fromRGB(170, 0, 0)
+arrest_Roundify_12px.ImageTransparency = 0.700
+arrest_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+arrest_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+kill.Name = "kill"
+kill.Parent = FIRST
+kill.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+kill.BackgroundTransparency = 1.000
+kill.BorderSizePixel = 0
+kill.Position = UDim2.new(0.0501392744, 0, 0.486312926, 0)
+kill.Size = UDim2.new(0, 82, 0, 32)
+kill.Font = Enum.Font.ArialBold
+kill.Text = "KILL"
+kill.TextColor3 = Color3.fromRGB(255, 255, 255)
+kill.TextSize = 14.000
+
+kill_Roundify_12px.Name = "kill_Roundify_12px"
+kill_Roundify_12px.Parent = kill
+kill_Roundify_12px.Active = true
+kill_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+kill_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+kill_Roundify_12px.BackgroundTransparency = 1.000
+kill_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+kill_Roundify_12px.Selectable = true
+kill_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+kill_Roundify_12px.Image = "rbxassetid://3570695787"
+kill_Roundify_12px.ImageColor3 = Color3.fromRGB(170, 0, 0)
+kill_Roundify_12px.ImageTransparency = 0.700
+kill_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+kill_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+returnb.Name = "returnb"
+returnb.Parent = FIRST
+returnb.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+returnb.BackgroundTransparency = 1.000
+returnb.BorderSizePixel = 0
+returnb.Position = UDim2.new(0.26462394, 0, 0.334639251, 0)
+returnb.Size = UDim2.new(0, 82, 0, 32)
+returnb.Font = Enum.Font.ArialBold
+returnb.Text = "RETURN"
+returnb.TextColor3 = Color3.fromRGB(255, 255, 255)
+returnb.TextSize = 14.000
+
+returnb_Roundify_12px.Name = "returnb_Roundify_12px"
+returnb_Roundify_12px.Parent = returnb
+returnb_Roundify_12px.Active = true
+returnb_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+returnb_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+returnb_Roundify_12px.BackgroundTransparency = 1.000
+returnb_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+returnb_Roundify_12px.Selectable = true
+returnb_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+returnb_Roundify_12px.Image = "rbxassetid://3570695787"
+returnb_Roundify_12px.ImageTransparency = 0.700
+returnb_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+returnb_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+Lable1.Name = "Lable1"
+Lable1.Parent = FIRST
+Lable1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Lable1.BackgroundTransparency = 1.000
+Lable1.Position = UDim2.new(0.681424081, 0, 0, 0)
+Lable1.Size = UDim2.new(0, 112, 0, 26)
+Lable1.Font = Enum.Font.ArialBold
+Lable1.LineHeight = 2.000
+Lable1.Text = "DeCodePL Ver 2.0"
+Lable1.TextColor3 = Color3.fromRGB(255, 85, 255)
+Lable1.TextScaled = true
+Lable1.TextSize = 18.000
+Lable1.TextWrapped = true
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(170, 170, 255)), ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255))}
+UIGradient.Parent = Lable1
+
+target.Name = "target"
+target.Parent = FIRST
+target.BackgroundColor3 = Color3.fromRGB(170, 85, 255)
+target.BackgroundTransparency = 1.000
+target.BorderSizePixel = 0
+target.Size = UDim2.new(0, 78, 0, 26)
+target.Font = Enum.Font.ArialBold
+target.Text = "TARGET"
+target.TextColor3 = Color3.fromRGB(85, 255, 255)
+target.TextSize = 14.000
+
+target_Roundify_12px.Name = "target_Roundify_12px"
+target_Roundify_12px.Parent = target
+target_Roundify_12px.Active = true
+target_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+target_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+target_Roundify_12px.BackgroundTransparency = 1.000
+target_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+target_Roundify_12px.Selectable = true
+target_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+target_Roundify_12px.Image = "rbxassetid://3570695787"
+target_Roundify_12px.ImageColor3 = Color3.fromRGB(170, 85, 255)
+target_Roundify_12px.ImageTransparency = 0.700
+target_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+target_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+server.Name = "server"
+server.Parent = FIRST
+server.BackgroundColor3 = Color3.fromRGB(170, 85, 255)
+server.BackgroundTransparency = 1.000
+server.BorderSizePixel = 0
+server.Position = UDim2.new(0.43575418, 0, 0, 0)
+server.Size = UDim2.new(0, 78, 0, 26)
+server.Font = Enum.Font.ArialBold
+server.Text = "SERVER"
+server.TextColor3 = Color3.fromRGB(85, 255, 255)
+server.TextSize = 14.000
+
+server_Roundify_12px.Name = "server_Roundify_12px"
+server_Roundify_12px.Parent = server
+server_Roundify_12px.Active = true
+server_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+server_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+server_Roundify_12px.BackgroundTransparency = 1.000
+server_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+server_Roundify_12px.Selectable = true
+server_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+server_Roundify_12px.Image = "rbxassetid://3570695787"
+server_Roundify_12px.ImageColor3 = Color3.fromRGB(170, 85, 255)
+server_Roundify_12px.ImageTransparency = 0.700
+server_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+server_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+client.Name = "client"
+client.Parent = FIRST
+client.BackgroundColor3 = Color3.fromRGB(170, 85, 255)
+client.BackgroundTransparency = 1.000
+client.BorderSizePixel = 0
+client.Position = UDim2.new(0.21787709, 0, 0, 0)
+client.Size = UDim2.new(0, 78, 0, 26)
+client.Font = Enum.Font.ArialBold
+client.Text = "CLIENT"
+client.TextColor3 = Color3.fromRGB(85, 255, 255)
+client.TextSize = 14.000
+
+client_Roundify_12px.Name = "client_Roundify_12px"
+client_Roundify_12px.Parent = client
+client_Roundify_12px.Active = true
+client_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+client_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+client_Roundify_12px.BackgroundTransparency = 1.000
+client_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+client_Roundify_12px.Selectable = true
+client_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+client_Roundify_12px.Image = "rbxassetid://3570695787"
+client_Roundify_12px.ImageColor3 = Color3.fromRGB(170, 85, 255)
+client_Roundify_12px.ImageTransparency = 0.700
+client_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+client_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+kicount.Name = "kicount"
+kicount.Parent = FIRST
+kicount.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+kicount.BackgroundTransparency = 1.000
+kicount.BorderSizePixel = 0
+kicount.Position = UDim2.new(0.43575418, 0, 0.222222209, 0)
+kicount.Size = UDim2.new(0, 42, 0, 17)
+kicount.Font = Enum.Font.Bangers
+kicount.Text = "KI = 6"
+kicount.TextColor3 = Color3.fromRGB(0, 255, 0)
+kicount.TextScaled = true
+kicount.TextSize = 14.000
+kicount.TextWrapped = true
+
+kicount_Roundify_12px.Name = "kicount_Roundify_12px"
+kicount_Roundify_12px.Parent = kicount
+kicount_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+kicount_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+kicount_Roundify_12px.BackgroundTransparency = 1.000
+kicount_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+kicount_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+kicount_Roundify_12px.Image = "rbxassetid://3570695787"
+kicount_Roundify_12px.ImageTransparency = 0.700
+kicount_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+kicount_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+SPECtwo.Name = "SPECtwo"
+SPECtwo.Parent = FIRST
+SPECtwo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SPECtwo.BackgroundTransparency = 1.000
+SPECtwo.BorderSizePixel = 0
+SPECtwo.Position = UDim2.new(0.516759753, 0, 0.330275238, 0)
+SPECtwo.Size = UDim2.new(0, 82, 0, 32)
+SPECtwo.Font = Enum.Font.ArialBold
+SPECtwo.Text = "SPECTATE"
+SPECtwo.TextColor3 = Color3.fromRGB(255, 255, 255)
+SPECtwo.TextSize = 14.000
+
+SPECtwo_Roundify_12px.Name = "SPECtwo_Roundify_12px"
+SPECtwo_Roundify_12px.Parent = SPECtwo
+SPECtwo_Roundify_12px.Active = true
+SPECtwo_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+SPECtwo_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SPECtwo_Roundify_12px.BackgroundTransparency = 1.000
+SPECtwo_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+SPECtwo_Roundify_12px.Selectable = true
+SPECtwo_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+SPECtwo_Roundify_12px.Image = "rbxassetid://3570695787"
+SPECtwo_Roundify_12px.ImageTransparency = 0.700
+SPECtwo_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+SPECtwo_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+Playertwo.Name = "Playertwo"
+Playertwo.Parent = FIRST
+Playertwo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Playertwo.BackgroundTransparency = 1.000
+Playertwo.BorderSizePixel = 0
+Playertwo.Position = UDim2.new(0.5413903, 0, 0.16143392, 0)
+Playertwo.Size = UDim2.new(0, 146, 0, 26)
+Playertwo.Font = Enum.Font.ArialBold
+Playertwo.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Playertwo.PlaceholderText = "TARGET.NAME"
+Playertwo.Text = ""
+Playertwo.TextColor3 = Color3.fromRGB(0, 0, 0)
+Playertwo.TextSize = 14.000
+
+Playertwo_Roundify_12px.Name = "Playertwo_Roundify_12px"
+Playertwo_Roundify_12px.Parent = Playertwo
+Playertwo_Roundify_12px.Active = true
+Playertwo_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+Playertwo_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Playertwo_Roundify_12px.BackgroundTransparency = 1.000
+Playertwo_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+Playertwo_Roundify_12px.Selectable = true
+Playertwo_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+Playertwo_Roundify_12px.Image = "rbxassetid://3570695787"
+Playertwo_Roundify_12px.ImageColor3 = Color3.fromRGB(170, 0, 255)
+Playertwo_Roundify_12px.ImageTransparency = 0.700
+Playertwo_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+Playertwo_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+gototwo.Name = "gototwo"
+gototwo.Parent = FIRST
+gototwo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+gototwo.BackgroundTransparency = 1.000
+gototwo.BorderSizePixel = 0
+gototwo.Position = UDim2.new(0.729050279, 0, 0.788990855, 0)
+gototwo.Size = UDim2.new(0, 82, 0, 32)
+gototwo.Font = Enum.Font.ArialBold
+gototwo.Text = "GOTO"
+gototwo.TextColor3 = Color3.fromRGB(255, 255, 255)
+gototwo.TextSize = 14.000
+
+gototwo_Roundify_12px.Name = "gototwo_Roundify_12px"
+gototwo_Roundify_12px.Parent = gototwo
+gototwo_Roundify_12px.Active = true
+gototwo_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+gototwo_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+gototwo_Roundify_12px.BackgroundTransparency = 1.000
+gototwo_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+gototwo_Roundify_12px.Selectable = true
+gototwo_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+gototwo_Roundify_12px.Image = "rbxassetid://3570695787"
+gototwo_Roundify_12px.ImageTransparency = 0.700
+gototwo_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+gototwo_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+crimtwo.Name = "crimtwo"
+crimtwo.Parent = FIRST
+crimtwo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+crimtwo.BackgroundTransparency = 1.000
+crimtwo.BorderSizePixel = 0
+crimtwo.Position = UDim2.new(0.516759753, 0, 0.788990855, 0)
+crimtwo.Size = UDim2.new(0, 82, 0, 32)
+crimtwo.Font = Enum.Font.ArialBold
+crimtwo.Text = "CRIM"
+crimtwo.TextColor3 = Color3.fromRGB(255, 255, 255)
+crimtwo.TextSize = 14.000
+
+crimtwo_Roundify_12px.Name = "crimtwo_Roundify_12px"
+crimtwo_Roundify_12px.Parent = crimtwo
+crimtwo_Roundify_12px.Active = true
+crimtwo_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+crimtwo_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+crimtwo_Roundify_12px.BackgroundTransparency = 1.000
+crimtwo_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+crimtwo_Roundify_12px.Selectable = true
+crimtwo_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+crimtwo_Roundify_12px.Image = "rbxassetid://3570695787"
+crimtwo_Roundify_12px.ImageTransparency = 0.700
+crimtwo_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+crimtwo_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(170, 0, 255)), ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255))}
+UIGradient_2.Parent = FIRST
+
+lagtwo.Name = "lagtwo"
+lagtwo.Parent = FIRST
+lagtwo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+lagtwo.BackgroundTransparency = 1.000
+lagtwo.BorderSizePixel = 0
+lagtwo.Position = UDim2.new(0.516759753, 0, 0.642201841, 0)
+lagtwo.Size = UDim2.new(0, 82, 0, 32)
+lagtwo.Font = Enum.Font.ArialBold
+lagtwo.Text = "LAG:FLS"
+lagtwo.TextColor3 = Color3.fromRGB(255, 255, 255)
+lagtwo.TextSize = 14.000
+
+lagtwo_Roundify_12px.Name = "lagtwo_Roundify_12px"
+lagtwo_Roundify_12px.Parent = lagtwo
+lagtwo_Roundify_12px.Active = true
+lagtwo_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+lagtwo_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+lagtwo_Roundify_12px.BackgroundTransparency = 1.000
+lagtwo_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+lagtwo_Roundify_12px.Selectable = true
+lagtwo_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+lagtwo_Roundify_12px.Image = "rbxassetid://3570695787"
+lagtwo_Roundify_12px.ImageColor3 = Color3.fromRGB(255, 0, 0)
+lagtwo_Roundify_12px.ImageTransparency = 0.700
+lagtwo_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+lagtwo_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+arresttwo.Name = "arresttwo"
+arresttwo.Parent = FIRST
+arresttwo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+arresttwo.BackgroundTransparency = 1.000
+arresttwo.BorderSizePixel = 0
+arresttwo.Position = UDim2.new(0.729050279, 0, 0.486238539, 0)
+arresttwo.Size = UDim2.new(0, 82, 0, 32)
+arresttwo.Font = Enum.Font.ArialBold
+arresttwo.Text = "ARREST"
+arresttwo.TextColor3 = Color3.fromRGB(255, 255, 255)
+arresttwo.TextSize = 14.000
+
+arresttwo_Roundify_12px.Name = "arresttwo_Roundify_12px"
+arresttwo_Roundify_12px.Parent = arresttwo
+arresttwo_Roundify_12px.Active = true
+arresttwo_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+arresttwo_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+arresttwo_Roundify_12px.BackgroundTransparency = 1.000
+arresttwo_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+arresttwo_Roundify_12px.Selectable = true
+arresttwo_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+arresttwo_Roundify_12px.Image = "rbxassetid://3570695787"
+arresttwo_Roundify_12px.ImageColor3 = Color3.fromRGB(170, 0, 0)
+arresttwo_Roundify_12px.ImageTransparency = 0.700
+arresttwo_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+arresttwo_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+killtwo.Name = "killtwo"
+killtwo.Parent = FIRST
+killtwo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+killtwo.BackgroundTransparency = 1.000
+killtwo.BorderSizePixel = 0
+killtwo.Position = UDim2.new(0.516759753, 0, 0.486238539, 0)
+killtwo.Size = UDim2.new(0, 82, 0, 32)
+killtwo.Font = Enum.Font.ArialBold
+killtwo.Text = "KILL"
+killtwo.TextColor3 = Color3.fromRGB(255, 255, 255)
+killtwo.TextSize = 14.000
+
+killtwo_Roundify_12px.Name = "killtwo_Roundify_12px"
+killtwo_Roundify_12px.Parent = killtwo
+killtwo_Roundify_12px.Active = true
+killtwo_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+killtwo_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+killtwo_Roundify_12px.BackgroundTransparency = 1.000
+killtwo_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+killtwo_Roundify_12px.Selectable = true
+killtwo_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+killtwo_Roundify_12px.Image = "rbxassetid://3570695787"
+killtwo_Roundify_12px.ImageColor3 = Color3.fromRGB(170, 0, 0)
+killtwo_Roundify_12px.ImageTransparency = 0.700
+killtwo_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+killtwo_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+returnbtwo.Name = "returnbtwo"
+returnbtwo.Parent = FIRST
+returnbtwo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+returnbtwo.BackgroundTransparency = 1.000
+returnbtwo.BorderSizePixel = 0
+returnbtwo.Position = UDim2.new(0.729050279, 0, 0.330275238, 0)
+returnbtwo.Size = UDim2.new(0, 82, 0, 32)
+returnbtwo.Font = Enum.Font.ArialBold
+returnbtwo.Text = "RETURN"
+returnbtwo.TextColor3 = Color3.fromRGB(255, 255, 255)
+returnbtwo.TextSize = 14.000
+
+returnbtwo_Roundify_12px.Name = "returnbtwo_Roundify_12px"
+returnbtwo_Roundify_12px.Parent = returnbtwo
+returnbtwo_Roundify_12px.Active = true
+returnbtwo_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+returnbtwo_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+returnbtwo_Roundify_12px.BackgroundTransparency = 1.000
+returnbtwo_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+returnbtwo_Roundify_12px.Selectable = true
+returnbtwo_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+returnbtwo_Roundify_12px.Image = "rbxassetid://3570695787"
+returnbtwo_Roundify_12px.ImageTransparency = 0.700
+returnbtwo_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+returnbtwo_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+bring.Name = "bring"
+bring.Parent = FIRST
+bring.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bring.BackgroundTransparency = 1.000
+bring.BorderSizePixel = 0
+bring.Position = UDim2.new(0.26442498, 0, 0.64470619, 0)
+bring.Size = UDim2.new(0, 82, 0, 32)
+bring.Font = Enum.Font.ArialBold
+bring.Text = "BRING"
+bring.TextColor3 = Color3.fromRGB(255, 255, 255)
+bring.TextSize = 14.000
+
+bring_Roundify_12px.Name = "bring_Roundify_12px"
+bring_Roundify_12px.Parent = bring
+bring_Roundify_12px.Active = true
+bring_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+bring_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bring_Roundify_12px.BackgroundTransparency = 1.000
+bring_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+bring_Roundify_12px.Selectable = true
+bring_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+bring_Roundify_12px.Image = "rbxassetid://3570695787"
+bring_Roundify_12px.ImageTransparency = 0.700
+bring_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+bring_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+bringtwo.Name = "bringtwo"
+bringtwo.Parent = FIRST
+bringtwo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bringtwo.BackgroundTransparency = 1.000
+bringtwo.BorderSizePixel = 0
+bringtwo.Position = UDim2.new(0.72747916, 0, 0.641002476, 0)
+bringtwo.Size = UDim2.new(0, 82, 0, 32)
+bringtwo.Font = Enum.Font.ArialBold
+bringtwo.Text = "BRING"
+bringtwo.TextColor3 = Color3.fromRGB(255, 255, 255)
+bringtwo.TextSize = 14.000
+
+bringtwo_Roundify_12px.Name = "bringtwo_Roundify_12px"
+bringtwo_Roundify_12px.Parent = bringtwo
+bringtwo_Roundify_12px.Active = true
+bringtwo_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+bringtwo_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bringtwo_Roundify_12px.BackgroundTransparency = 1.000
+bringtwo_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+bringtwo_Roundify_12px.Selectable = true
+bringtwo_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+bringtwo_Roundify_12px.Image = "rbxassetid://3570695787"
+bringtwo_Roundify_12px.ImageTransparency = 0.700
+bringtwo_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+bringtwo_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+THIRD.Name = "THIRD"
+THIRD.Parent = ScreenGui
+THIRD.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+THIRD.BackgroundTransparency = 1.000
+THIRD.Position = UDim2.new(-0.203999996, 0, 0.683000028, 0)
+THIRD.Size = UDim2.new(0, 406, 0, 270)
+THIRD.Visible = false
+THIRD.Image = "rbxassetid://3570695787"
+THIRD.ImageColor3 = Color3.fromRGB(85, 0, 255)
+THIRD.ImageTransparency = 0.500
+THIRD.ScaleType = Enum.ScaleType.Slice
+THIRD.SliceCenter = Rect.new(100, 100, 100, 100)
+
+targetthree.Name = "targetthree"
+targetthree.Parent = THIRD
+targetthree.BackgroundColor3 = Color3.fromRGB(170, 85, 255)
+targetthree.BackgroundTransparency = 1.000
+targetthree.BorderSizePixel = 0
+targetthree.Size = UDim2.new(0, 78, 0, 26)
+targetthree.Font = Enum.Font.ArialBold
+targetthree.Text = "TARGET"
+targetthree.TextColor3 = Color3.fromRGB(85, 255, 255)
+targetthree.TextSize = 14.000
+
+targetthree_Roundify_12px.Name = "targetthree_Roundify_12px"
+targetthree_Roundify_12px.Parent = targetthree
+targetthree_Roundify_12px.Active = true
+targetthree_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+targetthree_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+targetthree_Roundify_12px.BackgroundTransparency = 1.000
+targetthree_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+targetthree_Roundify_12px.Selectable = true
+targetthree_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+targetthree_Roundify_12px.Image = "rbxassetid://3570695787"
+targetthree_Roundify_12px.ImageColor3 = Color3.fromRGB(170, 85, 255)
+targetthree_Roundify_12px.ImageTransparency = 0.700
+targetthree_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+targetthree_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+clientthree.Name = "clientthree"
+clientthree.Parent = THIRD
+clientthree.BackgroundColor3 = Color3.fromRGB(170, 85, 255)
+clientthree.BackgroundTransparency = 1.000
+clientthree.BorderSizePixel = 0
+clientthree.Position = UDim2.new(0.21787709, 0, -1.86264515e-09, 0)
+clientthree.Size = UDim2.new(0, 78, 0, 26)
+clientthree.Font = Enum.Font.ArialBold
+clientthree.Text = "CLIENT"
+clientthree.TextColor3 = Color3.fromRGB(85, 255, 255)
+clientthree.TextSize = 14.000
+
+clientthree_Roundify_12px.Name = "clientthree_Roundify_12px"
+clientthree_Roundify_12px.Parent = clientthree
+clientthree_Roundify_12px.Active = true
+clientthree_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+clientthree_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+clientthree_Roundify_12px.BackgroundTransparency = 1.000
+clientthree_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+clientthree_Roundify_12px.Selectable = true
+clientthree_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+clientthree_Roundify_12px.Image = "rbxassetid://3570695787"
+clientthree_Roundify_12px.ImageColor3 = Color3.fromRGB(170, 85, 255)
+clientthree_Roundify_12px.ImageTransparency = 0.700
+clientthree_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+clientthree_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+serverthree.Name = "serverthree"
+serverthree.Parent = THIRD
+serverthree.BackgroundColor3 = Color3.fromRGB(170, 85, 255)
+serverthree.BackgroundTransparency = 1.000
+serverthree.BorderSizePixel = 0
+serverthree.Position = UDim2.new(0.43575421, 0, 0, 0)
+serverthree.Size = UDim2.new(0, 78, 0, 26)
+serverthree.Font = Enum.Font.ArialBold
+serverthree.Text = "SERVER"
+serverthree.TextColor3 = Color3.fromRGB(85, 255, 255)
+serverthree.TextSize = 14.000
+
+serverthree_Roundify_12px.Name = "serverthree_Roundify_12px"
+serverthree_Roundify_12px.Parent = serverthree
+serverthree_Roundify_12px.Active = true
+serverthree_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+serverthree_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+serverthree_Roundify_12px.BackgroundTransparency = 1.000
+serverthree_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+serverthree_Roundify_12px.Selectable = true
+serverthree_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+serverthree_Roundify_12px.Image = "rbxassetid://3570695787"
+serverthree_Roundify_12px.ImageColor3 = Color3.fromRGB(170, 85, 255)
+serverthree_Roundify_12px.ImageTransparency = 0.700
+serverthree_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+serverthree_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+label3.Name = "label3"
+label3.Parent = THIRD
+label3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+label3.BackgroundTransparency = 1.000
+label3.Position = UDim2.new(0.681424081, 0, 0, 0)
+label3.Size = UDim2.new(0, 112, 0, 26)
+label3.Font = Enum.Font.ArialBold
+label3.LineHeight = 2.000
+label3.Text = "DeCodePL Ver 2.0"
+label3.TextColor3 = Color3.fromRGB(255, 85, 255)
+label3.TextScaled = true
+label3.TextSize = 18.000
+label3.TextWrapped = true
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(170, 170, 255)), ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255))}
+UIGradient_3.Parent = label3
+
+guns.Name = "guns"
+guns.Parent = THIRD
+guns.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+guns.BackgroundTransparency = 1.000
+guns.BorderSizePixel = 0
+guns.Position = UDim2.new(0.0501392707, 0, 0.293354869, 0)
+guns.Size = UDim2.new(0, 82, 0, 32)
+guns.Font = Enum.Font.ArialBold
+guns.Text = "GUNS"
+guns.TextColor3 = Color3.fromRGB(255, 255, 255)
+guns.TextSize = 14.000
+
+guns_Roundify_12px.Name = "guns_Roundify_12px"
+guns_Roundify_12px.Parent = guns
+guns_Roundify_12px.Active = true
+guns_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+guns_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+guns_Roundify_12px.BackgroundTransparency = 1.000
+guns_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+guns_Roundify_12px.Selectable = true
+guns_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+guns_Roundify_12px.Image = "rbxassetid://3570695787"
+guns_Roundify_12px.ImageTransparency = 0.700
+guns_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+guns_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+killaura.Name = "killaura"
+killaura.Parent = THIRD
+killaura.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+killaura.BackgroundTransparency = 1.000
+killaura.BorderSizePixel = 0
+killaura.Position = UDim2.new(0.742876589, 0, 0.43555674, 0)
+killaura.Size = UDim2.new(0, 82, 0, 32)
+killaura.Font = Enum.Font.ArialBold
+killaura.Text = "KILLAURA"
+killaura.TextColor3 = Color3.fromRGB(255, 255, 255)
+killaura.TextSize = 14.000
+
+killaura_Roundify_12px.Name = "killaura_Roundify_12px"
+killaura_Roundify_12px.Parent = killaura
+killaura_Roundify_12px.Active = true
+killaura_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+killaura_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+killaura_Roundify_12px.BackgroundTransparency = 1.000
+killaura_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+killaura_Roundify_12px.Selectable = true
+killaura_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+killaura_Roundify_12px.Image = "rbxassetid://3570695787"
+killaura_Roundify_12px.ImageColor3 = Color3.fromRGB(255, 0, 0)
+killaura_Roundify_12px.ImageTransparency = 0.700
+killaura_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+killaura_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+reset.Name = "reset"
+reset.Parent = THIRD
+reset.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+reset.BackgroundTransparency = 1.000
+reset.BorderSizePixel = 0
+reset.Position = UDim2.new(0.0501392931, 0, 0.449318141, 0)
+reset.Size = UDim2.new(0, 82, 0, 32)
+reset.Font = Enum.Font.ArialBold
+reset.Text = "RESET"
+reset.TextColor3 = Color3.fromRGB(255, 255, 255)
+reset.TextSize = 14.000
+
+reset_Roundify_12px.Name = "reset_Roundify_12px"
+reset_Roundify_12px.Parent = reset
+reset_Roundify_12px.Active = true
+reset_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+reset_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+reset_Roundify_12px.BackgroundTransparency = 1.000
+reset_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+reset_Roundify_12px.Selectable = true
+reset_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+reset_Roundify_12px.Image = "rbxassetid://3570695787"
+reset_Roundify_12px.ImageColor3 = Color3.fromRGB(170, 0, 0)
+reset_Roundify_12px.ImageTransparency = 0.700
+reset_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+reset_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+fstwalk.Name = "fstwalk"
+fstwalk.Parent = THIRD
+fstwalk.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fstwalk.BackgroundTransparency = 1.000
+fstwalk.BorderSizePixel = 0
+fstwalk.Position = UDim2.new(0.0485706255, 0, 0.601577818, 0)
+fstwalk.Size = UDim2.new(0, 82, 0, 32)
+fstwalk.Font = Enum.Font.ArialBold
+fstwalk.Text = "FSTWALK"
+fstwalk.TextColor3 = Color3.fromRGB(255, 255, 255)
+fstwalk.TextSize = 14.000
+
+fstwalk_Roundify_12px.Name = "fstwalk_Roundify_12px"
+fstwalk_Roundify_12px.Parent = fstwalk
+fstwalk_Roundify_12px.Active = true
+fstwalk_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+fstwalk_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fstwalk_Roundify_12px.BackgroundTransparency = 1.000
+fstwalk_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+fstwalk_Roundify_12px.Selectable = true
+fstwalk_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+fstwalk_Roundify_12px.Image = "rbxassetid://3570695787"
+fstwalk_Roundify_12px.ImageTransparency = 0.700
+fstwalk_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+fstwalk_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+oneshot.Name = "oneshot"
+oneshot.Parent = THIRD
+oneshot.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+oneshot.BackgroundTransparency = 1.000
+oneshot.BorderSizePixel = 0
+oneshot.Position = UDim2.new(0.51382637, 0, 0.440143794, 0)
+oneshot.Size = UDim2.new(0, 82, 0, 32)
+oneshot.Font = Enum.Font.ArialBold
+oneshot.Text = "ONESHOT"
+oneshot.TextColor3 = Color3.fromRGB(255, 255, 255)
+oneshot.TextSize = 14.000
+
+oneshot_Roundify_12px.Name = "oneshot_Roundify_12px"
+oneshot_Roundify_12px.Parent = oneshot
+oneshot_Roundify_12px.Active = true
+oneshot_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+oneshot_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+oneshot_Roundify_12px.BackgroundTransparency = 1.000
+oneshot_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+oneshot_Roundify_12px.Selectable = true
+oneshot_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+oneshot_Roundify_12px.Image = "rbxassetid://3570695787"
+oneshot_Roundify_12px.ImageTransparency = 0.700
+oneshot_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+oneshot_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+arrestall.Name = "arrestall"
+arrestall.Parent = THIRD
+arrestall.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+arrestall.BackgroundTransparency = 1.000
+arrestall.BorderSizePixel = 0
+arrestall.Position = UDim2.new(0.742876589, 0, 0.288767755, 0)
+arrestall.Size = UDim2.new(0, 82, 0, 32)
+arrestall.Font = Enum.Font.ArialBold
+arrestall.Text = "ARRESTALL"
+arrestall.TextColor3 = Color3.fromRGB(255, 255, 255)
+arrestall.TextSize = 14.000
+
+arrestall_Roundify_12px.Name = "arrestall_Roundify_12px"
+arrestall_Roundify_12px.Parent = arrestall
+arrestall_Roundify_12px.Active = true
+arrestall_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+arrestall_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+arrestall_Roundify_12px.BackgroundTransparency = 1.000
+arrestall_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+arrestall_Roundify_12px.Selectable = true
+arrestall_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+arrestall_Roundify_12px.Image = "rbxassetid://3570695787"
+arrestall_Roundify_12px.ImageTransparency = 0.700
+arrestall_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+arrestall_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+killall.Name = "killall"
+killall.Parent = THIRD
+killall.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+killall.BackgroundTransparency = 1.000
+killall.BorderSizePixel = 0
+killall.Position = UDim2.new(0.516619682, 0, 0.293354869, 0)
+killall.Size = UDim2.new(0, 82, 0, 32)
+killall.Font = Enum.Font.ArialBold
+killall.Text = "KILLALL"
+killall.TextColor3 = Color3.fromRGB(255, 255, 255)
+killall.TextSize = 14.000
+
+killall_Roundify_12px.Name = "killall_Roundify_12px"
+killall_Roundify_12px.Parent = killall
+killall_Roundify_12px.Active = true
+killall_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+killall_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+killall_Roundify_12px.BackgroundTransparency = 1.000
+killall_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+killall_Roundify_12px.Selectable = true
+killall_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+killall_Roundify_12px.Image = "rbxassetid://3570695787"
+killall_Roundify_12px.ImageTransparency = 0.700
+killall_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+killall_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+delmesh.Name = "delmesh"
+delmesh.Parent = THIRD
+delmesh.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+delmesh.BackgroundTransparency = 1.000
+delmesh.BorderSizePixel = 0
+delmesh.Position = UDim2.new(0.276396185, 0, 0.293354869, 0)
+delmesh.Size = UDim2.new(0, 82, 0, 32)
+delmesh.Font = Enum.Font.ArialBold
+delmesh.Text = "DELMESH"
+delmesh.TextColor3 = Color3.fromRGB(255, 255, 255)
+delmesh.TextSize = 14.000
+
+delmesh_Roundify_12px.Name = "delmesh_Roundify_12px"
+delmesh_Roundify_12px.Parent = delmesh
+delmesh_Roundify_12px.Active = true
+delmesh_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+delmesh_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+delmesh_Roundify_12px.BackgroundTransparency = 1.000
+delmesh_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+delmesh_Roundify_12px.Selectable = true
+delmesh_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+delmesh_Roundify_12px.Image = "rbxassetid://3570695787"
+delmesh_Roundify_12px.ImageTransparency = 0.700
+delmesh_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+delmesh_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+nohat.Name = "nohat"
+nohat.Parent = THIRD
+nohat.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+nohat.BackgroundTransparency = 1.000
+nohat.BorderSizePixel = 0
+nohat.Position = UDim2.new(0.273602933, 0, 0.449318171, 0)
+nohat.Size = UDim2.new(0, 82, 0, 32)
+nohat.Font = Enum.Font.ArialBold
+nohat.Text = "NOHAT"
+nohat.TextColor3 = Color3.fromRGB(255, 255, 255)
+nohat.TextSize = 14.000
+
+nohat_Roundify_12px.Name = "nohat_Roundify_12px"
+nohat_Roundify_12px.Parent = nohat
+nohat_Roundify_12px.Active = true
+nohat_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+nohat_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+nohat_Roundify_12px.BackgroundTransparency = 1.000
+nohat_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+nohat_Roundify_12px.Selectable = true
+nohat_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+nohat_Roundify_12px.Image = "rbxassetid://3570695787"
+nohat_Roundify_12px.ImageTransparency = 0.700
+nohat_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+nohat_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(170, 170, 255)), ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255))}
+UIGradient_4.Parent = THIRD
+
+TextLabel.Parent = THIRD
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.0474860668, 0, 0.169724748, 0)
+TextLabel.Size = UDim2.new(0, 173, 0, 17)
+TextLabel.Font = Enum.Font.ArialBold
+TextLabel.Text = "USER"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+
+TextLabel_Roundify_12px.Name = "TextLabel_Roundify_12px"
+TextLabel_Roundify_12px.Parent = TextLabel
+TextLabel_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_Roundify_12px.BackgroundTransparency = 1.000
+TextLabel_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_Roundify_12px.Image = "rbxassetid://3570695787"
+TextLabel_Roundify_12px.ImageTransparency = 0.700
+TextLabel_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+TextLabel_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+TextLabel_2.Parent = THIRD
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.513966501, 0, 0.169724867, 0)
+TextLabel_2.Size = UDim2.new(0, 174, 0, 17)
+TextLabel_2.Font = Enum.Font.ArialBold
+TextLabel_2.Text = "DESTROY()"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+
+TextLabel_Roundify_12px_2.Name = "TextLabel_Roundify_12px"
+TextLabel_Roundify_12px_2.Parent = TextLabel_2
+TextLabel_Roundify_12px_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_Roundify_12px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_Roundify_12px_2.BackgroundTransparency = 1.000
+TextLabel_Roundify_12px_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_Roundify_12px_2.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_Roundify_12px_2.Image = "rbxassetid://3570695787"
+TextLabel_Roundify_12px_2.ImageTransparency = 0.700
+TextLabel_Roundify_12px_2.ScaleType = Enum.ScaleType.Slice
+TextLabel_Roundify_12px_2.SliceCenter = Rect.new(100, 100, 100, 100)
+
+crimkillaura.Name = "crimkillaura"
+crimkillaura.Parent = THIRD
+crimkillaura.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+crimkillaura.BackgroundTransparency = 1.000
+crimkillaura.BorderSizePixel = 0
+crimkillaura.Position = UDim2.new(0.624650002, 0, 0.835556686, 0)
+crimkillaura.Size = UDim2.new(0, 82, 0, 32)
+crimkillaura.Font = Enum.Font.Cartoon
+crimkillaura.Text = "CMKILLAURA"
+crimkillaura.TextColor3 = Color3.fromRGB(255, 255, 255)
+crimkillaura.TextSize = 14.000
+
+crimkillaura_Roundify_12px.Name = "crimkillaura_Roundify_12px"
+crimkillaura_Roundify_12px.Parent = crimkillaura
+crimkillaura_Roundify_12px.Active = true
+crimkillaura_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+crimkillaura_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+crimkillaura_Roundify_12px.BackgroundTransparency = 1.000
+crimkillaura_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+crimkillaura_Roundify_12px.Selectable = true
+crimkillaura_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+crimkillaura_Roundify_12px.Image = "rbxassetid://3570695787"
+crimkillaura_Roundify_12px.ImageColor3 = Color3.fromRGB(255, 0, 0)
+crimkillaura_Roundify_12px.ImageTransparency = 0.700
+crimkillaura_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+crimkillaura_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+guardkillaura.Name = "guardkillaura"
+guardkillaura.Parent = THIRD
+guardkillaura.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+guardkillaura.BackgroundTransparency = 1.000
+guardkillaura.BorderSizePixel = 0
+guardkillaura.Position = UDim2.new(0.511349559, 0, 0.694816053, 0)
+guardkillaura.Size = UDim2.new(0, 82, 0, 32)
+guardkillaura.Font = Enum.Font.Cartoon
+guardkillaura.Text = "CPKILLAURA"
+guardkillaura.TextColor3 = Color3.fromRGB(255, 255, 255)
+guardkillaura.TextSize = 14.000
+
+guardkillaura_Roundify_12px.Name = "guardkillaura_Roundify_12px"
+guardkillaura_Roundify_12px.Parent = guardkillaura
+guardkillaura_Roundify_12px.Active = true
+guardkillaura_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+guardkillaura_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+guardkillaura_Roundify_12px.BackgroundTransparency = 1.000
+guardkillaura_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+guardkillaura_Roundify_12px.Selectable = true
+guardkillaura_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+guardkillaura_Roundify_12px.Image = "rbxassetid://3570695787"
+guardkillaura_Roundify_12px.ImageColor3 = Color3.fromRGB(0, 0, 255)
+guardkillaura_Roundify_12px.ImageTransparency = 0.700
+guardkillaura_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+guardkillaura_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+inmatekillaura.Name = "inmatekillaura"
+inmatekillaura.Parent = THIRD
+inmatekillaura.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+inmatekillaura.BackgroundTransparency = 1.000
+inmatekillaura.BorderSizePixel = 0
+inmatekillaura.Position = UDim2.new(0.735487461, 0, 0.694815993, 0)
+inmatekillaura.Size = UDim2.new(0, 82, 0, 32)
+inmatekillaura.Font = Enum.Font.Cartoon
+inmatekillaura.Text = "INKILLAURA"
+inmatekillaura.TextColor3 = Color3.fromRGB(255, 255, 255)
+inmatekillaura.TextSize = 14.000
+
+inmatekillaura_Roundify_12px.Name = "inmatekillaura_Roundify_12px"
+inmatekillaura_Roundify_12px.Parent = inmatekillaura
+inmatekillaura_Roundify_12px.Active = true
+inmatekillaura_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+inmatekillaura_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+inmatekillaura_Roundify_12px.BackgroundTransparency = 1.000
+inmatekillaura_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+inmatekillaura_Roundify_12px.Selectable = true
+inmatekillaura_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+inmatekillaura_Roundify_12px.Image = "rbxassetid://3570695787"
+inmatekillaura_Roundify_12px.ImageColor3 = Color3.fromRGB(255, 170, 0)
+inmatekillaura_Roundify_12px.ImageTransparency = 0.700
+inmatekillaura_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+inmatekillaura_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+TextLabel_3.Parent = THIRD
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 0.700
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.513003349, 0, 0.6030581, 0)
+TextLabel_3.Size = UDim2.new(0, 173, 0, 17)
+TextLabel_3.Font = Enum.Font.ArialBold
+TextLabel_3.Text = "USER"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 14.000
+
+rejoinb.Name = "rejoinb"
+rejoinb.Parent = THIRD
+rejoinb.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+rejoinb.BackgroundTransparency = 1.000
+rejoinb.BorderSizePixel = 0
+rejoinb.Position = UDim2.new(0.050139308, 0, 0.753021955, 0)
+rejoinb.Size = UDim2.new(0, 82, 0, 32)
+rejoinb.Font = Enum.Font.ArialBold
+rejoinb.Text = "REJOIN"
+rejoinb.TextColor3 = Color3.fromRGB(255, 255, 255)
+rejoinb.TextScaled = true
+rejoinb.TextSize = 14.000
+rejoinb.TextWrapped = true
+
+rejoinb_Roundify_12px.Name = "rejoinb_Roundify_12px"
+rejoinb_Roundify_12px.Parent = rejoinb
+rejoinb_Roundify_12px.Active = true
+rejoinb_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+rejoinb_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+rejoinb_Roundify_12px.BackgroundTransparency = 1.000
+rejoinb_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+rejoinb_Roundify_12px.Selectable = true
+rejoinb_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+rejoinb_Roundify_12px.Image = "rbxassetid://3570695787"
+rejoinb_Roundify_12px.ImageColor3 = Color3.fromRGB(170, 0, 0)
+rejoinb_Roundify_12px.ImageTransparency = 0.700
+rejoinb_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+rejoinb_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+up.Name = "up"
+up.Parent = THIRD
+up.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+up.BackgroundTransparency = 1.000
+up.BorderSizePixel = 0
+up.Position = UDim2.new(0.293437958, 0, 0.60040462, 0)
+up.Size = UDim2.new(0, 58, 0, 27)
+up.Font = Enum.Font.SourceSans
+up.Text = "-->"
+up.TextColor3 = Color3.fromRGB(0, 255, 0)
+up.TextScaled = true
+up.TextSize = 14.000
+up.TextWrapped = true
+
+up_Roundify_12px.Name = "up_Roundify_12px"
+up_Roundify_12px.Parent = up
+up_Roundify_12px.Active = true
+up_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+up_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+up_Roundify_12px.BackgroundTransparency = 1.000
+up_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+up_Roundify_12px.Selectable = true
+up_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+up_Roundify_12px.Image = "rbxassetid://3570695787"
+up_Roundify_12px.ImageTransparency = 0.700
+up_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+up_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+down.Name = "down"
+down.Parent = THIRD
+down.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+down.BackgroundTransparency = 1.000
+down.BorderSizePixel = 0
+down.Position = UDim2.new(0.293437958, 0, 0.850606918, 0)
+down.Size = UDim2.new(0, 58, 0, 27)
+down.Font = Enum.Font.SourceSans
+down.Text = "<--"
+down.TextColor3 = Color3.fromRGB(170, 0, 0)
+down.TextScaled = true
+down.TextSize = 14.000
+down.TextWrapped = true
+
+down_Roundify_12px.Name = "down_Roundify_12px"
+down_Roundify_12px.Parent = down
+down_Roundify_12px.Active = true
+down_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+down_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+down_Roundify_12px.BackgroundTransparency = 1.000
+down_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+down_Roundify_12px.Selectable = true
+down_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+down_Roundify_12px.Image = "rbxassetid://3570695787"
+down_Roundify_12px.ImageTransparency = 0.700
+down_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+down_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+lagnum.Name = "lagnum"
+lagnum.Parent = THIRD
+lagnum.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+lagnum.BackgroundTransparency = 1.000
+lagnum.BorderSizePixel = 0
+lagnum.Position = UDim2.new(0.296557814, 0, 0.730692208, 0)
+lagnum.Size = UDim2.new(0, 55, 0, 25)
+lagnum.Font = Enum.Font.SourceSans
+lagnum.Text = "150"
+lagnum.TextColor3 = Color3.fromRGB(0, 255, 0)
+lagnum.TextScaled = true
+lagnum.TextSize = 14.000
+lagnum.TextWrapped = true
+
+lagnum_Roundify_12px.Name = "lagnum_Roundify_12px"
+lagnum_Roundify_12px.Parent = lagnum
+lagnum_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+lagnum_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+lagnum_Roundify_12px.BackgroundTransparency = 1.000
+lagnum_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+lagnum_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+lagnum_Roundify_12px.Image = "rbxassetid://3570695787"
+lagnum_Roundify_12px.ImageColor3 = Color3.fromRGB(0, 0, 0)
+lagnum_Roundify_12px.ImageTransparency = 0.700
+lagnum_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+lagnum_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+TextLabel_4.Parent = THIRD
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.43346715, 0, 0.848148167, 0)
+TextLabel_4.Size = UDim2.new(0, 81, 0, 11)
+TextLabel_4.Font = Enum.Font.ArialBold
+TextLabel_4.Text = "LAGRATE"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 14.000
+
+SECOND.Name = "SECOND"
+SECOND.Parent = ScreenGui
+SECOND.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SECOND.BackgroundTransparency = 1.000
+SECOND.Position = UDim2.new(-0.203999996, 0, 0.683000028, 0)
+SECOND.Size = UDim2.new(0, 406, 0, 270)
+SECOND.Visible = false
+SECOND.Image = "rbxassetid://3570695787"
+SECOND.ImageColor3 = Color3.fromRGB(85, 0, 255)
+SECOND.ImageTransparency = 0.500
+SECOND.ScaleType = Enum.ScaleType.Slice
+SECOND.SliceCenter = Rect.new(100, 100, 100, 100)
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(170, 170, 255)), ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255))}
+UIGradient_5.Parent = SECOND
+
+targettwo.Name = "targettwo"
+targettwo.Parent = SECOND
+targettwo.BackgroundColor3 = Color3.fromRGB(170, 85, 255)
+targettwo.BackgroundTransparency = 1.000
+targettwo.BorderSizePixel = 0
+targettwo.Size = UDim2.new(0, 78, 0, 26)
+targettwo.Font = Enum.Font.ArialBold
+targettwo.Text = "TARGET"
+targettwo.TextColor3 = Color3.fromRGB(85, 255, 255)
+targettwo.TextSize = 14.000
+
+targettwo_Roundify_12px.Name = "targettwo_Roundify_12px"
+targettwo_Roundify_12px.Parent = targettwo
+targettwo_Roundify_12px.Active = true
+targettwo_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+targettwo_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+targettwo_Roundify_12px.BackgroundTransparency = 1.000
+targettwo_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+targettwo_Roundify_12px.Selectable = true
+targettwo_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+targettwo_Roundify_12px.Image = "rbxassetid://3570695787"
+targettwo_Roundify_12px.ImageColor3 = Color3.fromRGB(170, 85, 255)
+targettwo_Roundify_12px.ImageTransparency = 0.700
+targettwo_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+targettwo_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+servertwo.Name = "servertwo"
+servertwo.Parent = SECOND
+servertwo.BackgroundColor3 = Color3.fromRGB(170, 85, 255)
+servertwo.BackgroundTransparency = 1.000
+servertwo.BorderSizePixel = 0
+servertwo.Position = UDim2.new(0.43575418, 0, 0, 0)
+servertwo.Size = UDim2.new(0, 78, 0, 26)
+servertwo.Font = Enum.Font.ArialBold
+servertwo.Text = "SERVER"
+servertwo.TextColor3 = Color3.fromRGB(85, 255, 255)
+servertwo.TextSize = 14.000
+
+servertwo_Roundify_12px.Name = "servertwo_Roundify_12px"
+servertwo_Roundify_12px.Parent = servertwo
+servertwo_Roundify_12px.Active = true
+servertwo_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+servertwo_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+servertwo_Roundify_12px.BackgroundTransparency = 1.000
+servertwo_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+servertwo_Roundify_12px.Selectable = true
+servertwo_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+servertwo_Roundify_12px.Image = "rbxassetid://3570695787"
+servertwo_Roundify_12px.ImageColor3 = Color3.fromRGB(170, 85, 255)
+servertwo_Roundify_12px.ImageTransparency = 0.700
+servertwo_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+servertwo_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+clienttwo.Name = "clienttwo"
+clienttwo.Parent = SECOND
+clienttwo.BackgroundColor3 = Color3.fromRGB(170, 85, 255)
+clienttwo.BackgroundTransparency = 1.000
+clienttwo.BorderSizePixel = 0
+clienttwo.Position = UDim2.new(0.21787709, 0, 0, 0)
+clienttwo.Size = UDim2.new(0, 78, 0, 26)
+clienttwo.Font = Enum.Font.ArialBold
+clienttwo.Text = "CLIENT"
+clienttwo.TextColor3 = Color3.fromRGB(85, 255, 255)
+clienttwo.TextSize = 14.000
+
+clienttwo_Roundify_12px.Name = "clienttwo_Roundify_12px"
+clienttwo_Roundify_12px.Parent = clienttwo
+clienttwo_Roundify_12px.Active = true
+clienttwo_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+clienttwo_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+clienttwo_Roundify_12px.BackgroundTransparency = 1.000
+clienttwo_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+clienttwo_Roundify_12px.Selectable = true
+clienttwo_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+clienttwo_Roundify_12px.Image = "rbxassetid://3570695787"
+clienttwo_Roundify_12px.ImageColor3 = Color3.fromRGB(170, 85, 255)
+clienttwo_Roundify_12px.ImageTransparency = 0.700
+clienttwo_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+clienttwo_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+EARST.Name = "E:ARST"
+EARST.Parent = SECOND
+EARST.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+EARST.BackgroundTransparency = 1.000
+EARST.BorderSizePixel = 0
+EARST.Position = UDim2.new(0.0530726239, 0, 0.486238509, 0)
+EARST.Size = UDim2.new(0, 82, 0, 32)
+EARST.Font = Enum.Font.ArialBold
+EARST.Text = "E:ARST"
+EARST.TextColor3 = Color3.fromRGB(255, 255, 255)
+EARST.TextSize = 14.000
+
+EARST_Roundify_12px.Name = "E:ARST_Roundify_12px"
+EARST_Roundify_12px.Parent = EARST
+EARST_Roundify_12px.Active = true
+EARST_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+EARST_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+EARST_Roundify_12px.BackgroundTransparency = 1.000
+EARST_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+EARST_Roundify_12px.Selectable = true
+EARST_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+EARST_Roundify_12px.Image = "rbxassetid://3570695787"
+EARST_Roundify_12px.ImageColor3 = Color3.fromRGB(255, 0, 0)
+EARST_Roundify_12px.ImageTransparency = 0.700
+EARST_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+EARST_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+stspam.Name = "stspam"
+stspam.Parent = SECOND
+stspam.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+stspam.BackgroundTransparency = 1.000
+stspam.BorderSizePixel = 0
+stspam.Position = UDim2.new(0.0530725867, 0, 0.788990855, 0)
+stspam.Size = UDim2.new(0, 82, 0, 32)
+stspam.Font = Enum.Font.ArialBold
+stspam.Text = "STSPAM"
+stspam.TextColor3 = Color3.fromRGB(255, 255, 255)
+stspam.TextSize = 14.000
+
+stspam_Roundify_12px.Name = "stspam_Roundify_12px"
+stspam_Roundify_12px.Parent = stspam
+stspam_Roundify_12px.Active = true
+stspam_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+stspam_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+stspam_Roundify_12px.BackgroundTransparency = 1.000
+stspam_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+stspam_Roundify_12px.Selectable = true
+stspam_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+stspam_Roundify_12px.Image = "rbxassetid://3570695787"
+stspam_Roundify_12px.ImageColor3 = Color3.fromRGB(255, 0, 0)
+stspam_Roundify_12px.ImageTransparency = 0.700
+stspam_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+stspam_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+hitboxes.Name = "hitboxes"
+hitboxes.Parent = SECOND
+hitboxes.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+hitboxes.BackgroundTransparency = 1.000
+hitboxes.BorderSizePixel = 0
+hitboxes.Position = UDim2.new(0.298882693, 0, 0.330275238, 0)
+hitboxes.Size = UDim2.new(0, 82, 0, 32)
+hitboxes.Font = Enum.Font.ArialBold
+hitboxes.Text = "HITBOXES"
+hitboxes.TextColor3 = Color3.fromRGB(255, 255, 255)
+hitboxes.TextSize = 14.000
+
+hitboxes_Roundify_12px.Name = "hitboxes_Roundify_12px"
+hitboxes_Roundify_12px.Parent = hitboxes
+hitboxes_Roundify_12px.Active = true
+hitboxes_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+hitboxes_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+hitboxes_Roundify_12px.BackgroundTransparency = 1.000
+hitboxes_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+hitboxes_Roundify_12px.Selectable = true
+hitboxes_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+hitboxes_Roundify_12px.Image = "rbxassetid://3570695787"
+hitboxes_Roundify_12px.ImageColor3 = Color3.fromRGB(255, 0, 0)
+hitboxes_Roundify_12px.ImageTransparency = 0.700
+hitboxes_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+hitboxes_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+gmode.Name = "gmode"
+gmode.Parent = SECOND
+gmode.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+gmode.BackgroundTransparency = 1.000
+gmode.BorderSizePixel = 0
+gmode.Position = UDim2.new(0.0530726239, 0, 0.330275238, 0)
+gmode.Size = UDim2.new(0, 82, 0, 32)
+gmode.Font = Enum.Font.ArialBold
+gmode.Text = "GMODE"
+gmode.TextColor3 = Color3.fromRGB(255, 255, 255)
+gmode.TextSize = 14.000
+
+gmode_Roundify_12px.Name = "gmode_Roundify_12px"
+gmode_Roundify_12px.Parent = gmode
+gmode_Roundify_12px.Active = true
+gmode_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+gmode_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+gmode_Roundify_12px.BackgroundTransparency = 1.000
+gmode_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+gmode_Roundify_12px.Selectable = true
+gmode_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+gmode_Roundify_12px.Image = "rbxassetid://3570695787"
+gmode_Roundify_12px.ImageColor3 = Color3.fromRGB(255, 0, 0)
+gmode_Roundify_12px.ImageTransparency = 0.700
+gmode_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+gmode_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+antispam.Name = "antispam"
+antispam.Parent = SECOND
+antispam.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+antispam.BackgroundTransparency = 1.000
+antispam.BorderSizePixel = 0
+antispam.Position = UDim2.new(0.0530726016, 0, 0.642201841, 0)
+antispam.Size = UDim2.new(0, 82, 0, 32)
+antispam.Font = Enum.Font.ArialBold
+antispam.Text = "ANTISPAM"
+antispam.TextColor3 = Color3.fromRGB(255, 255, 255)
+antispam.TextSize = 14.000
+
+antispam_Roundify_12px.Name = "antispam_Roundify_12px"
+antispam_Roundify_12px.Parent = antispam
+antispam_Roundify_12px.Active = true
+antispam_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+antispam_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+antispam_Roundify_12px.BackgroundTransparency = 1.000
+antispam_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+antispam_Roundify_12px.Selectable = true
+antispam_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+antispam_Roundify_12px.Image = "rbxassetid://3570695787"
+antispam_Roundify_12px.ImageColor3 = Color3.fromRGB(255, 0, 0)
+antispam_Roundify_12px.ImageTransparency = 0.700
+antispam_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+antispam_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+ctrldel.Name = "ctrldel"
+ctrldel.Parent = SECOND
+ctrldel.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ctrldel.BackgroundTransparency = 1.000
+ctrldel.BorderSizePixel = 0
+ctrldel.Position = UDim2.new(0.298882693, 0, 0.165137619, 0)
+ctrldel.Size = UDim2.new(0, 82, 0, 32)
+ctrldel.Font = Enum.Font.ArialBold
+ctrldel.Text = "CTRLDEL"
+ctrldel.TextColor3 = Color3.fromRGB(255, 255, 255)
+ctrldel.TextSize = 14.000
+
+ctrldel_Roundify_12px.Name = "ctrldel_Roundify_12px"
+ctrldel_Roundify_12px.Parent = ctrldel
+ctrldel_Roundify_12px.Active = true
+ctrldel_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+ctrldel_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ctrldel_Roundify_12px.BackgroundTransparency = 1.000
+ctrldel_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+ctrldel_Roundify_12px.Selectable = true
+ctrldel_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+ctrldel_Roundify_12px.Image = "rbxassetid://3570695787"
+ctrldel_Roundify_12px.ImageColor3 = Color3.fromRGB(255, 0, 0)
+ctrldel_Roundify_12px.ImageTransparency = 0.700
+ctrldel_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+ctrldel_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+guards.Name = "guards"
+guards.Parent = SECOND
+guards.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+guards.BackgroundTransparency = 1.000
+guards.BorderSizePixel = 0
+guards.Position = UDim2.new(0.544692755, 0, 0.284403622, 0)
+guards.Size = UDim2.new(0, 82, 0, 32)
+guards.Font = Enum.Font.ArialBold
+guards.Text = "GUARD"
+guards.TextColor3 = Color3.fromRGB(255, 255, 255)
+guards.TextSize = 14.000
+
+guards_Roundify_12px.Name = "guards_Roundify_12px"
+guards_Roundify_12px.Parent = guards
+guards_Roundify_12px.Active = true
+guards_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+guards_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+guards_Roundify_12px.BackgroundTransparency = 1.000
+guards_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+guards_Roundify_12px.Selectable = true
+guards_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+guards_Roundify_12px.Image = "rbxassetid://3570695787"
+guards_Roundify_12px.ImageColor3 = Color3.fromRGB(0, 0, 255)
+guards_Roundify_12px.ImageTransparency = 0.700
+guards_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+guards_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+inamte.Name = "inamte"
+inamte.Parent = SECOND
+inamte.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+inamte.BackgroundTransparency = 1.000
+inamte.BorderSizePixel = 0
+inamte.Position = UDim2.new(0.773743033, 0, 0.284403622, 0)
+inamte.Size = UDim2.new(0, 82, 0, 32)
+inamte.Font = Enum.Font.ArialBold
+inamte.Text = "INMATE"
+inamte.TextColor3 = Color3.fromRGB(255, 255, 255)
+inamte.TextSize = 14.000
+
+inamte_Roundify_12px.Name = "inamte_Roundify_12px"
+inamte_Roundify_12px.Parent = inamte
+inamte_Roundify_12px.Active = true
+inamte_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+inamte_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+inamte_Roundify_12px.BackgroundTransparency = 1.000
+inamte_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+inamte_Roundify_12px.Selectable = true
+inamte_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+inamte_Roundify_12px.Image = "rbxassetid://3570695787"
+inamte_Roundify_12px.ImageColor3 = Color3.fromRGB(255, 170, 0)
+inamte_Roundify_12px.ImageTransparency = 0.700
+inamte_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+inamte_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+fstrun.Name = "fstrun"
+fstrun.Parent = SECOND
+fstrun.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+fstrun.BackgroundTransparency = 1.000
+fstrun.BorderSizePixel = 0
+fstrun.Position = UDim2.new(0.298882663, 0, 0.642201781, 0)
+fstrun.Size = UDim2.new(0, 82, 0, 32)
+fstrun.Font = Enum.Font.ArialBold
+fstrun.Text = "FSTRUN"
+fstrun.TextColor3 = Color3.fromRGB(255, 255, 255)
+fstrun.TextSize = 14.000
+
+fstrun_Roundify_12px.Name = "fstrun_Roundify_12px"
+fstrun_Roundify_12px.Parent = fstrun
+fstrun_Roundify_12px.Active = true
+fstrun_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+fstrun_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fstrun_Roundify_12px.BackgroundTransparency = 1.000
+fstrun_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+fstrun_Roundify_12px.Selectable = true
+fstrun_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+fstrun_Roundify_12px.Image = "rbxassetid://3570695787"
+fstrun_Roundify_12px.ImageColor3 = Color3.fromRGB(255, 0, 0)
+fstrun_Roundify_12px.ImageTransparency = 0.700
+fstrun_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+fstrun_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+intres.Name = "intres"
+intres.Parent = SECOND
+intres.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+intres.BackgroundTransparency = 1.000
+intres.BorderSizePixel = 0
+intres.Position = UDim2.new(0.298882693, 0, 0.486238509, 0)
+intres.Size = UDim2.new(0, 82, 0, 32)
+intres.Font = Enum.Font.ArialBold
+intres.Text = "INT:RES"
+intres.TextColor3 = Color3.fromRGB(255, 255, 255)
+intres.TextSize = 14.000
+
+intres_Roundify_12px.Name = "intres_Roundify_12px"
+intres_Roundify_12px.Parent = intres
+intres_Roundify_12px.Active = true
+intres_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+intres_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+intres_Roundify_12px.BackgroundTransparency = 1.000
+intres_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+intres_Roundify_12px.Selectable = true
+intres_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+intres_Roundify_12px.Image = "rbxassetid://3570695787"
+intres_Roundify_12px.ImageColor3 = Color3.fromRGB(255, 0, 0)
+intres_Roundify_12px.ImageTransparency = 0.700
+intres_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+intres_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+TextLabel_5.Parent = SECOND
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.552081943, 0, 0.165137619, 0)
+TextLabel_5.Size = UDim2.new(0, 171, 0, 17)
+TextLabel_5.Font = Enum.Font.ArialBold
+TextLabel_5.Text = "TEAMS"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 14.000
+
+TextLabel_Roundify_12px_3.Name = "TextLabel_Roundify_12px"
+TextLabel_Roundify_12px_3.Parent = TextLabel_5
+TextLabel_Roundify_12px_3.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_Roundify_12px_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_Roundify_12px_3.BackgroundTransparency = 1.000
+TextLabel_Roundify_12px_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_Roundify_12px_3.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_Roundify_12px_3.Image = "rbxassetid://3570695787"
+TextLabel_Roundify_12px_3.ImageTransparency = 0.700
+TextLabel_Roundify_12px_3.ScaleType = Enum.ScaleType.Slice
+TextLabel_Roundify_12px_3.SliceCenter = Rect.new(100, 100, 100, 100)
+
+roof.Name = "roof"
+roof.Parent = SECOND
+roof.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+roof.BackgroundTransparency = 1.000
+roof.BorderSizePixel = 0
+roof.Position = UDim2.new(0.773743033, 0, 0.853210986, 0)
+roof.Size = UDim2.new(0, 82, 0, 32)
+roof.Font = Enum.Font.ArialBold
+roof.Text = "ROOF"
+roof.TextColor3 = Color3.fromRGB(255, 255, 255)
+roof.TextSize = 14.000
+
+roof_Roundify_12px.Name = "roof_Roundify_12px"
+roof_Roundify_12px.Parent = roof
+roof_Roundify_12px.Active = true
+roof_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+roof_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+roof_Roundify_12px.BackgroundTransparency = 1.000
+roof_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+roof_Roundify_12px.Selectable = true
+roof_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+roof_Roundify_12px.Image = "rbxassetid://3570695787"
+roof_Roundify_12px.ImageColor3 = Color3.fromRGB(0, 170, 0)
+roof_Roundify_12px.ImageTransparency = 0.700
+roof_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+roof_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+onepunch.Name = "onepunch"
+onepunch.Parent = SECOND
+onepunch.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+onepunch.BackgroundTransparency = 1.000
+onepunch.BorderSizePixel = 0
+onepunch.Position = UDim2.new(0.298882693, 0, 0.788990796, 0)
+onepunch.Size = UDim2.new(0, 82, 0, 32)
+onepunch.Font = Enum.Font.ArialBold
+onepunch.Text = "ONEPUNCH"
+onepunch.TextColor3 = Color3.fromRGB(255, 255, 255)
+onepunch.TextSize = 14.000
+
+onepunch_Roundify_12px.Name = "onepunch_Roundify_12px"
+onepunch_Roundify_12px.Parent = onepunch
+onepunch_Roundify_12px.Active = true
+onepunch_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+onepunch_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+onepunch_Roundify_12px.BackgroundTransparency = 1.000
+onepunch_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+onepunch_Roundify_12px.Selectable = true
+onepunch_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+onepunch_Roundify_12px.Image = "rbxassetid://3570695787"
+onepunch_Roundify_12px.ImageColor3 = Color3.fromRGB(255, 0, 0)
+onepunch_Roundify_12px.ImageTransparency = 0.700
+onepunch_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+onepunch_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+neutral.Name = "neutral"
+neutral.Parent = SECOND
+neutral.BackgroundColor3 = Color3.fromRGB(117, 117, 117)
+neutral.BackgroundTransparency = 1.000
+neutral.BorderSizePixel = 0
+neutral.Position = UDim2.new(0.773743033, 0, 0.444954097, 0)
+neutral.Size = UDim2.new(0, 82, 0, 32)
+neutral.Font = Enum.Font.ArialBold
+neutral.Text = "NEUTRAL"
+neutral.TextColor3 = Color3.fromRGB(255, 255, 255)
+neutral.TextSize = 14.000
+
+neutral_Roundify_12px.Name = "neutral_Roundify_12px"
+neutral_Roundify_12px.Parent = neutral
+neutral_Roundify_12px.Active = true
+neutral_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+neutral_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+neutral_Roundify_12px.BackgroundTransparency = 1.000
+neutral_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+neutral_Roundify_12px.Selectable = true
+neutral_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+neutral_Roundify_12px.Image = "rbxassetid://3570695787"
+neutral_Roundify_12px.ImageColor3 = Color3.fromRGB(117, 117, 117)
+neutral_Roundify_12px.ImageTransparency = 0.700
+neutral_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+neutral_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+criminal.Name = "criminal"
+criminal.Parent = SECOND
+criminal.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+criminal.BackgroundTransparency = 1.000
+criminal.BorderSizePixel = 0
+criminal.Position = UDim2.new(0.544692755, 0, 0.440366924, 0)
+criminal.Size = UDim2.new(0, 82, 0, 32)
+criminal.Font = Enum.Font.ArialBold
+criminal.Text = "CRIMINAL"
+criminal.TextColor3 = Color3.fromRGB(255, 255, 255)
+criminal.TextSize = 14.000
+
+criminal_Roundify_12px.Name = "criminal_Roundify_12px"
+criminal_Roundify_12px.Parent = criminal
+criminal_Roundify_12px.Active = true
+criminal_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+criminal_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+criminal_Roundify_12px.BackgroundTransparency = 1.000
+criminal_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+criminal_Roundify_12px.Selectable = true
+criminal_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+criminal_Roundify_12px.Image = "rbxassetid://3570695787"
+criminal_Roundify_12px.ImageColor3 = Color3.fromRGB(170, 0, 0)
+criminal_Roundify_12px.ImageTransparency = 0.700
+criminal_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+criminal_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+label2.Name = "label2"
+label2.Parent = SECOND
+label2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+label2.BackgroundTransparency = 1.000
+label2.Position = UDim2.new(0.681424081, 0, 0, 0)
+label2.Size = UDim2.new(0, 112, 0, 26)
+label2.Font = Enum.Font.ArialBold
+label2.LineHeight = 2.000
+label2.Text = "DeCodePL Ver 2.0"
+label2.TextColor3 = Color3.fromRGB(255, 85, 255)
+label2.TextScaled = true
+label2.TextSize = 18.000
+label2.TextWrapped = true
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(170, 170, 255)), ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255))}
+UIGradient_6.Parent = label2
+
+TextLabel_6.Parent = SECOND
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0.544692755, 0, 0.604621053, 0)
+TextLabel_6.Size = UDim2.new(0, 174, 0, 17)
+TextLabel_6.Font = Enum.Font.ArialBold
+TextLabel_6.Text = "TELEPORTS"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 14.000
+
+TextLabel_Roundify_12px_4.Name = "TextLabel_Roundify_12px"
+TextLabel_Roundify_12px_4.Parent = TextLabel_6
+TextLabel_Roundify_12px_4.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_Roundify_12px_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_Roundify_12px_4.BackgroundTransparency = 1.000
+TextLabel_Roundify_12px_4.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_Roundify_12px_4.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_Roundify_12px_4.Image = "rbxassetid://3570695787"
+TextLabel_Roundify_12px_4.ImageTransparency = 0.700
+TextLabel_Roundify_12px_4.ScaleType = Enum.ScaleType.Slice
+TextLabel_Roundify_12px_4.SliceCenter = Rect.new(100, 100, 100, 100)
+
+base.Name = "base"
+base.Parent = SECOND
+base.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+base.BackgroundTransparency = 1.000
+base.BorderSizePixel = 0
+base.Position = UDim2.new(0.544692755, 0, 0.853210986, 0)
+base.Size = UDim2.new(0, 82, 0, 32)
+base.Font = Enum.Font.ArialBold
+base.Text = "CRIMBASE"
+base.TextColor3 = Color3.fromRGB(255, 255, 255)
+base.TextSize = 14.000
+
+base_Roundify_12px.Name = "base_Roundify_12px"
+base_Roundify_12px.Parent = base
+base_Roundify_12px.Active = true
+base_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+base_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+base_Roundify_12px.BackgroundTransparency = 1.000
+base_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+base_Roundify_12px.Selectable = true
+base_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+base_Roundify_12px.Image = "rbxassetid://3570695787"
+base_Roundify_12px.ImageColor3 = Color3.fromRGB(0, 170, 0)
+base_Roundify_12px.ImageTransparency = 0.700
+base_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+base_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+tower.Name = "tower"
+tower.Parent = SECOND
+tower.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+tower.BackgroundTransparency = 1.000
+tower.BorderSizePixel = 0
+tower.Position = UDim2.new(0.773743033, 0, 0.706421971, 0)
+tower.Size = UDim2.new(0, 82, 0, 32)
+tower.Font = Enum.Font.ArialBold
+tower.Text = "TOWER"
+tower.TextColor3 = Color3.fromRGB(255, 255, 255)
+tower.TextSize = 14.000
+
+tower_Roundify_12px.Name = "tower_Roundify_12px"
+tower_Roundify_12px.Parent = tower
+tower_Roundify_12px.Active = true
+tower_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+tower_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+tower_Roundify_12px.BackgroundTransparency = 1.000
+tower_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+tower_Roundify_12px.Selectable = true
+tower_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+tower_Roundify_12px.Image = "rbxassetid://3570695787"
+tower_Roundify_12px.ImageColor3 = Color3.fromRGB(0, 170, 0)
+tower_Roundify_12px.ImageTransparency = 0.700
+tower_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+tower_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+nex.Name = "nex"
+nex.Parent = SECOND
+nex.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+nex.BackgroundTransparency = 1.000
+nex.BorderSizePixel = 0
+nex.Position = UDim2.new(0.544692755, 0, 0.706421971, 0)
+nex.Size = UDim2.new(0, 82, 0, 32)
+nex.Font = Enum.Font.ArialBold
+nex.Text = "NEX:HUB"
+nex.TextColor3 = Color3.fromRGB(255, 255, 255)
+nex.TextSize = 14.000
+
+nex_Roundify_12px.Name = "nex_Roundify_12px"
+nex_Roundify_12px.Parent = nex
+nex_Roundify_12px.Active = true
+nex_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+nex_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+nex_Roundify_12px.BackgroundTransparency = 1.000
+nex_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+nex_Roundify_12px.Selectable = true
+nex_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+nex_Roundify_12px.Image = "rbxassetid://3570695787"
+nex_Roundify_12px.ImageColor3 = Color3.fromRGB(0, 170, 0)
+nex_Roundify_12px.ImageTransparency = 0.700
+nex_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+nex_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+TextButton.Parent = SECOND
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+TextButton.BackgroundTransparency = 1.000
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.0530726239, 0, 0.165137619, 0)
+TextButton.Size = UDim2.new(0, 82, 0, 32)
+TextButton.Font = Enum.Font.ArialBold
+TextButton.Text = "INFJUMP"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 14.000
+
+infjumpround.Name = "infjumpround"
+infjumpround.Parent = TextButton
+infjumpround.Active = true
+infjumpround.AnchorPoint = Vector2.new(0.5, 0.5)
+infjumpround.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+infjumpround.BackgroundTransparency = 1.000
+infjumpround.Position = UDim2.new(0.5, 0, 0.5, 0)
+infjumpround.Selectable = true
+infjumpround.Size = UDim2.new(1, 0, 1, 0)
+infjumpround.Image = "rbxassetid://3570695787"
+infjumpround.ImageColor3 = Color3.fromRGB(255, 0, 0)
+infjumpround.ImageTransparency = 0.700
+infjumpround.ScaleType = Enum.ScaleType.Slice
+infjumpround.SliceCenter = Rect.new(100, 100, 100, 100)
+
+notiflabel.Name = "notiflabel"
+notiflabel.Parent = ScreenGui
+notiflabel.BackgroundColor3 = Color3.fromRGB(170, 85, 255)
+notiflabel.BackgroundTransparency = 1.000
+notiflabel.BorderSizePixel = 0
+notiflabel.Position = UDim2.new(-0.090067856, 0, 0.609336615, 0)
+notiflabel.Size = UDim2.new(0, 165, 0, 42)
+notiflabel.Visible = false
+notiflabel.Font = Enum.Font.SourceSans
+notiflabel.Text = "Notifacation"
+notiflabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+notiflabel.TextSize = 14.000
+
+notiflabel_Roundify_12px.Name = "notiflabel_Roundify_12px"
+notiflabel_Roundify_12px.Parent = notiflabel
+notiflabel_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+notiflabel_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+notiflabel_Roundify_12px.BackgroundTransparency = 1.000
+notiflabel_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+notiflabel_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+notiflabel_Roundify_12px.Visible = false
+notiflabel_Roundify_12px.Image = "rbxassetid://3570695787"
+notiflabel_Roundify_12px.ImageColor3 = Color3.fromRGB(170, 85, 255)
+notiflabel_Roundify_12px.ImageTransparency = 0.700
+notiflabel_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+notiflabel_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+servernumslbl.Name = "servernumslbl"
+servernumslbl.Parent = ScreenGui
+servernumslbl.BackgroundColor3 = Color3.fromRGB(170, 85, 255)
+servernumslbl.BackgroundTransparency = 1.000
+servernumslbl.BorderSizePixel = 0
+servernumslbl.Position = UDim2.new(0.00123380625, 0, 0.26289925, 0)
+servernumslbl.Size = UDim2.new(0, 75, 0, 41)
+servernumslbl.Font = Enum.Font.ArialBold
+servernumslbl.Text = "LOADING"
+servernumslbl.TextColor3 = Color3.fromRGB(255, 255, 255)
+servernumslbl.TextScaled = true
+servernumslbl.TextSize = 14.000
+servernumslbl.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+servernumslbl.TextWrapped = true
+
+servernumslbl_Roundify_12px.Name = "servernumslbl_Roundify_12px"
+servernumslbl_Roundify_12px.Parent = servernumslbl
+servernumslbl_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+servernumslbl_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+servernumslbl_Roundify_12px.BackgroundTransparency = 1.000
+servernumslbl_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+servernumslbl_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+servernumslbl_Roundify_12px.Image = "rbxassetid://3570695787"
+servernumslbl_Roundify_12px.ImageColor3 = Color3.fromRGB(170, 85, 255)
+servernumslbl_Roundify_12px.ImageTransparency = 0.700
+servernumslbl_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+servernumslbl_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+
+deaserver.Name = "deaserver"
+deaserver.Parent = ScreenGui
+deaserver.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+deaserver.BackgroundTransparency = 0.700
+deaserver.Position = UDim2.new(-0.0956199914, 0, 0.423832923, 0)
+deaserver.Size = UDim2.new(0, 200, 0, 50)
+deaserver.Visible = false
+deaserver.Font = Enum.Font.ArialBold
+deaserver.Text = "DEAD SERVER: join new?"
+deaserver.TextColor3 = Color3.fromRGB(255, 255, 255)
+deaserver.TextScaled = true
+deaserver.TextSize = 14.000
+deaserver.TextWrapped = true
+
+num7 = 0
+killall.MouseButton1Down:connect(function()
+
+end)
+killall.MouseButton1Down:connect(function()
+	notiflabel.Visible = true
+	notiflabel_Roundify_12px.Visible = true
+	notiflabel.Text = "KILLALL CALLED"
+	notiflabel:TweenPosition(UDim2.new(-0.001, 0,0.587, 0),'Out','Sine',.5)
+	wait(9)
+	notiflabel:TweenPosition(UDim2.new(-0.090067856, 0, 0.609336615, 0),'Out','Sine',.5)
+	wait(.5)
+	notiflabel.Visible = false
+
+end)
+
+
+FIRST.SliceScale = 0.12
+SECOND.SliceScale = 0.12
+THIRD.SliceScale = 0.12
+
+
+local gradient = Lable1.UIGradient
+local TweenS = game:GetService("TweenService")
+local TweenI = TweenInfo.new(1, Enum.EasingStyle.Linear, Enum.EasingDirection.Out)
+local offset = {Offset = Vector2.new(-1, 0)}
+local anim = TweenS:Create(gradient, TweenI, offset)
+local startPos = Vector2.new(1, 0)
+local rot = 180
+
+function completed()
+	if rot == 0 then
+		gradient.Rotation = 180
+
+
+	elseif rot == 180 then
+		gradient.Rotation = 0
+
+
+	end
+	gradient.Offset = startPos
+
+
+	anim:Play()
+end
+
+anim.Completed:connect(function()
+	if rot == 0 then rot = 180 elseif rot == 180 then rot = 0 end
+	completed()
+end)
+
+completed()
+
+FIRST:TweenPosition(UDim2.new(-0.000616788864, 0, 0.685503721, 0),'Out','Sine',.5)
+
+
+
+client.MouseButton1Down:connect(function()
+	SECOND.Visible = true
+	firstw:Play()
+	firstw.Volume = 1
+	SECOND:TweenPosition(UDim2.new(-0.000616788864, 0, 0.685503721, 0),'Out','Sine',.5)
+	FIRST:TweenPosition(UDim2.new(-0.204, 0,0.683, 0),'Out','Back',.5)
+	THIRD:TweenPosition(UDim2.new(-0.204, 0,0.683, 0),'Out','Back',.5)
+	wait(.5)
+	FIRST.Visible = false
+	THIRD.Visible = false
+end)
+
+server.MouseButton1Down:connect(function()
+	THIRD.Visible = true
+	firstw:Play()
+	firstw.Volume = 1
+	THIRD:TweenPosition(UDim2.new(-0.000616788864, 0, 0.685503721, 0),'Out','Sine',.5)
+	FIRST:TweenPosition(UDim2.new(-0.204, 0,0.683, 0),'Out','Back',.5)
+	SECOND:TweenPosition(UDim2.new(-0.204, 0,0.683, 0),'Out','Back',.5)
+	wait(.5)
+	FIRST.Visible = false
+	SECOND.Visible = false
+
+end)
+
+
+
+target.MouseButton1Down:connect(function()
+	FIRST.Visible = true
+	firstw:Play()
+	firstw.Volume = 1
+	FIRST:TweenPosition(UDim2.new(-0.000616788864, 0, 0.685503721, 0),'Out','Sine',.5)
+	SECOND:TweenPosition(UDim2.new(-0.204, 0,0.683, 0),'Out','Back',.5)
+	THIRD:TweenPosition(UDim2.new(-0.204, 0,0.683, 0),'Out','Back',.5)
+
+	wait(.5)
+	SECOND.Visible = false
+	THIRD.Visible = false
+end)
+
+clientthree.MouseButton1Down:connect(function()
+	SECOND.Visible = true
+	firstw:Play()
+	firstw.Volume = 1
+	SECOND:TweenPosition(UDim2.new(-0.000616788864, 0, 0.685503721, 0),'Out','Sine',.5)
+	FIRST:TweenPosition(UDim2.new(-0.204, 0,0.683, 0),'Out','Back',.5)
+	THIRD:TweenPosition(UDim2.new(-0.204, 0,0.683, 0),'Out','Back',.5)
+	wait(.5)
+	THIRD.Visible = false
+	FIRST.Visible = false
+
+end)
+
+
+clienttwo.MouseButton1Down:connect(function()
+	SECOND.Visible = true
+	firstw:Play()
+	firstw.Volume = 1
+	SECOND:TweenPosition(UDim2.new(-0.000616788864, 0, 0.685503721, 0),'Out','Sine',.5)
+	FIRST:TweenPosition(UDim2.new(-0.204, 0,0.683, 0),'Out','Back',.5)
+	THIRD:TweenPosition(UDim2.new(-0.204, 0,0.683, 0),'Out','Back',.5)
+	wait(.5)
+	THIRD.Visible = false
+	FIRST.Visible = false
+end)
+
+serverthree.MouseButton1Down:connect(function()
+	THIRD.Visible = true
+	firstw:Play()
+	firstw.Volume = 1
+	THIRD:TweenPosition(UDim2.new(-0.000616788864, 0, 0.685503721, 0),'Out','Sine',.5)
+	SECOND:TweenPosition(UDim2.new(-0.204, 0,0.683, 0),'Out','Back',.5)
+	FIRST:TweenPosition(UDim2.new(-0.204, 0,0.683, 0),'Out','Back',.5)
+	wait(.5)
+	SECOND.Visible = false
+	FIRST.Visible = false
+end)
+
+servertwo.MouseButton1Down:connect(function()
+	firstw:Play()
+	firstw.Volume = 1
+	THIRD.Visible = true
+
+	THIRD:TweenPosition(UDim2.new(-0.000616788864, 0, 0.685503721, 0),'Out','Sine',.5)
+	SECOND:TweenPosition(UDim2.new(-0.204, 0,0.683, 0),'Out','Back',.5)
+	FIRST:TweenPosition(UDim2.new(-0.204, 0,0.683, 0),'Out','Back',.5)
+	wait(.5)
+	SECOND.Visible = false
+	FIRST.Visible = false
+end)
+
+targetthree.MouseButton1Down:connect(function()
+	FIRST.Visible = true
+	firstw:Play()
+	firstw.Volume = 1
+	FIRST:TweenPosition(UDim2.new(-0.000616788864, 0, 0.685503721, 0),'Out','Sine',.5)
+	SECOND:TweenPosition(UDim2.new(-0.204, 0,0.683, 0),'Out','Back',.5)
+	THIRD:TweenPosition(UDim2.new(-0.204, 0,0.683, 0),'Out','Back',.5)
+	wait(.5)
+	THIRD.Visible = false
+	SECOND.Visible = false
+end)
+
+targettwo.MouseButton1Down:connect(function()
+	FIRST.Visible = true
+	firstw:Play()
+	firstw.Volume = 1
+	FIRST:TweenPosition(UDim2.new(-0.000616788864, 0, 0.685503721, 0),'Out','Sine',.5)
+	SECOND:TweenPosition(UDim2.new(-0.204, 0,0.683, 0),'Out','Back',.5)
+	THIRD:TweenPosition(UDim2.new(-0.204, 0,0.683, 0),'Out','Back',.5)
+	wait(.5)
+	SECOND.Visible = false
+	THIRD.Visible = false
+end)
+
+
+SPEC.MouseEnter:connect(function()
+	SPEC.TextSize = 17
+end)
+
+SPEC.MouseLeave:connect(function()
+	SPEC.TextSize = 14
+end)
+SPEC.MouseEnter:connect(function()
+	yu:Play()
+	yu.Volume = 2
+end)
+
+returnb.MouseEnter:connect(function()
+	yu:Play()
+	yu.Volume = 2
+end)
+arrestall.MouseEnter:connect(function()
+	yu:Play()
+	yu.Volume = 2
+	arrestall.TextSize = 17
+end)
+
+
+
+
+
+local t = 17
+local y = 14
+
+
+--mouse leaves
+arrestall.MouseLeave:connect(function()
+	arrestall.TextSize = y
+end)
+
+crim.MouseLeave:connect(function()
+	crim.TextSize = y
+end)
+
+crimtwo.MouseLeave:connect(function()
+	crimtwo.TextSize = y
+end)
+
+goto.MouseLeave:connect(function()
+	goto.TextSize = y
+end)
+
+gototwo.MouseLeave:connect(function()
+	gototwo.TextSize = y
+end)
+
+kill.MouseLeave:connect(function()
+	kill.TextSize = y
+end)
+
+killtwo.MouseLeave:connect(function()
+	killtwo.TextSize = y
+end)
+
+
+arresttwo.MouseLeave:connect(function()
+
+end)
+
+lag.MouseLeave:connect(function()
+
+end)
+
+returnb.MouseLeave:connect(function()
+
+end)
+
+returnbtwo.MouseLeave:connect(function()
+
+end)
+
+TextButton.MouseLeave:connect(function()
+
+end)
+
+antispam.MouseLeave:connect(function()
+
+end)
+
+
+function mouseover()
+	r = 17
+
+end
+
+function GetPlayertwo(String)
+	Foundtwo = {}
+	strls = String:lower()
+	for i,v in pairs(game.Players:GetPlayers()) do
+		if v.Name:lower():sub(1, #String) == String:lower() then
+			table.insert(Foundtwo,v.Name)
+		end
+	end    
+	return Foundtwo    
+end
+specs2 = false
+SPECtwo.MouseButton1Down:connect(function()
+	r:Play()
+	r.Volume = 2
+	specs2 = true
+	for i,v in pairs(GetPlayertwo(Playertwo.Text)) do
+		Playertwo.Text = game.Players[v].Name
+		while specs2 == true do
+			wait(.1)
+			workspace.CurrentCamera.CameraSubject = game.Players[v].Character.Humanoid
+		end
+		yes = game.Players[v].Name
+
+		Playertwo.Text = game.Players[v].Name
+
+
+	end
+end)
+
+returnbtwo.MouseButton1Down:connect(function()
+	r:Play()
+	r.Volume = 2
+	specs2 = false
+	for i,v in pairs(GetPlayertwo(Playertwo.Text)) do
+		Playertwo.Text = game.Players[v].Name
+		workspace.CurrentCamera.CameraSubject = game.Players.LocalPlayer.Character.Humanoid
+		workspace.CurrentCamera.CameraSubject = game.Players.LocalPlayer.Character.Humanoid
+		wait(.1)
+		workspace.CurrentCamera.CameraSubject = game.Players.LocalPlayer.Character.Humanoid
+
+		workspace.CurrentCamera.CameraSubject = game.Players.LocalPlayer.Character.Humanoid
+
+		workspace.CurrentCamera.CameraSubject = game.Players.LocalPlayer.Character.Humanoid
+
+		Playertwo.Text = game.Players[v].Name
+
+	end
+end)
+
+function apear()
+	if ki == 0 then
+
+	end
+end
+kill.MouseButton1Down:connect(function()
+	while true do
+		wait(.1)
+		kicount.Text = "KI = "..ki
+		if game.Players.LocalPlayer.Character.Humanoid.Health == 0 then
+			ki = 6
+		end
+	end
+end)
+
+killtwo.MouseButton1Down:connect(function()
+
+	r:Play()
+	r.Volume = 2
+	ki = ki-1
+	if ki == 0 then
+		game.Players.LocalPlayer.Character.Humanoid.Health = 0
+		tw = game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").position
+		h = game.Players.LocalPlayer.Name
+		yyyy = game:GetService("Workspace").Remote.loadchar
+		yyyy:InvokeServer(h)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(tw)
+
+		ki = 6
+
+	else
+		game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["Remington 870"].ITEMPICKUP) 
+		for i,v in pairs(GetPlayertwo(Playertwo.Text)) do
+			Playertwo.Text = game.Players[v].Name
+
+			if game.Players[v].TeamColor.Name == ("Medium stone grey") then
+				workspace.Remote.TeamEvent:FireServer("Bright orange")
+
+				local A_1 = 
+					{
+						[1] = 
+						{
+							["RayObject"] = Ray.new(Vector3.new(827.412415, 101.489777, 2296.84326), Vector3.new(277.738678, 6.89340925, 287.773712)), 
+							["Distance"] = 4.7204174995422, 
+							["Cframe"] = CFrame.new(832.049377, 101.392006, 2300.97168, 0.843892097, -0.0554918349, 0.533635378, 0, 0.994636595, 0.103430569, -0.536512911, -0.0872842371, 0.839366019), 
+							["Hit"] = game.Workspace[v].Head
+						}, 
+						[2] = 
+						{
+							["RayObject"] = Ray.new(Vector3.new(827.412415, 101.489777, 2296.84326), Vector3.new(303.047546, 21.3568707, 260.203888)), 
+							["Distance"] = 4.8114862442017, 
+							["Cframe"] = CFrame.new(832.390259, 101.550629, 2300.74097, 0.738044441, -0.112958886, 0.665229917, 7.45057971e-09, 0.985887885, 0.16740793, -0.674752235, -0.123554483, 0.727628946), 
+							["Hit"] = game.Workspace[v].Head
+						}, 
+						[3] = 
+						{
+							["RayObject"] = Ray.new(Vector3.new(827.412415, 101.489777, 2296.84326), Vector3.new(296.800507, 7.00420141, 268.067932)), 
+							["Distance"] = 4.444625377655, 
+							["Cframe"] = CFrame.new(832.185486, 101.391617, 2300.70264, 0.775115669, -0.0692948848, 0.628007889, 7.45057971e-09, 0.993967533, 0.109675139, -0.631819367, -0.0850109085, 0.770439863), 
+							["Hit"] = game.Workspace[v].Head
+						}, 
+						[4] = 
+						{
+							["RayObject"] = Ray.new(Vector3.new(827.412415, 101.489777, 2296.84326), Vector3.new(284.930573, 11.9850616, 280.483368)), 
+							["Distance"] = 4.6211166381836, 
+							["Cframe"] = CFrame.new(832.10083, 101.445007, 2300.86963, 0.820150614, -0.0735745132, 0.567397356, 0, 0.991697431, 0.128593579, -0.572147667, -0.105466105, 0.81334126), 
+							["Hit"] = game.Workspace[v].Head
+						}, 
+						[5] = 
+						{
+							["RayObject"] = Ray.new(Vector3.new(827.412415, 101.489777, 2296.84326), Vector3.new(294.625824, 2.15741801, 270.538269)), 
+							["Distance"] = 4.4639973640442, 
+							["Cframe"] = CFrame.new(832.169434, 101.341301, 2300.73438, 0.784266233, -0.0537625961, 0.618090749, -3.7252903e-09, 0.99623847, 0.086654529, -0.620424569, -0.0679602176, 0.781316102), 
+							["Hit"] = game.Workspace[v].Head
+						}
+					}
+				local A_2 = game.Players.LocalPlayer.Backpack["Remington 870"]
+				local Event = game:GetService("ReplicatedStorage").ShootEvent
+				Event:FireServer(A_1, A_2)
+
+				wait(0.5)
+				workspace.Remote.TeamEvent:FireServer("Bright orange")
+				if game.Players[v].Character.Humanoid.Health < 1 then
+					game.StarterGui:SetCore("SendNotification", {
+						Title = " COMMAND ";
+						Text =  "Player Has been killed";
+						Icon = "rbxassetid://1873197208";
+						Duration = 8;
+					})   
+				else
+					game.StarterGui:SetCore("SendNotification", {
+						Title = " ERROR ";
+						Text =  "Player Has NOT killed";
+						Icon = "rbxassetid://1873197208";
+						Duration = 8;
+					})   
+
+				end
+			else
+				wait(0.1)
+				workspace.Remote.TeamEvent:FireServer("Medium stone grey")
+
+				local A_1 = 
+					{
+						[1] = 
+						{
+							["RayObject"] = Ray.new(Vector3.new(827.412415, 101.489777, 2296.84326), Vector3.new(277.738678, 6.89340925, 287.773712)), 
+							["Distance"] = 4.7204174995422, 
+							["Cframe"] = CFrame.new(832.049377, 101.392006, 2300.97168, 0.843892097, -0.0554918349, 0.533635378, 0, 0.994636595, 0.103430569, -0.536512911, -0.0872842371, 0.839366019), 
+							["Hit"] = game.Workspace[v].Head
+						}, 
+						[2] = 
+						{
+							["RayObject"] = Ray.new(Vector3.new(827.412415, 101.489777, 2296.84326), Vector3.new(303.047546, 21.3568707, 260.203888)), 
+							["Distance"] = 4.8114862442017, 
+							["Cframe"] = CFrame.new(832.390259, 101.550629, 2300.74097, 0.738044441, -0.112958886, 0.665229917, 7.45057971e-09, 0.985887885, 0.16740793, -0.674752235, -0.123554483, 0.727628946), 
+							["Hit"] = game.Workspace[v].Head
+						}, 
+						[3] = 
+						{
+							["RayObject"] = Ray.new(Vector3.new(827.412415, 101.489777, 2296.84326), Vector3.new(296.800507, 7.00420141, 268.067932)), 
+							["Distance"] = 4.444625377655, 
+							["Cframe"] = CFrame.new(832.185486, 101.391617, 2300.70264, 0.775115669, -0.0692948848, 0.628007889, 7.45057971e-09, 0.993967533, 0.109675139, -0.631819367, -0.0850109085, 0.770439863), 
+							["Hit"] = game.Workspace[v].Head
+						}, 
+						[4] = 
+						{
+							["RayObject"] = Ray.new(Vector3.new(827.412415, 101.489777, 2296.84326), Vector3.new(284.930573, 11.9850616, 280.483368)), 
+							["Distance"] = 4.6211166381836, 
+							["Cframe"] = CFrame.new(832.10083, 101.445007, 2300.86963, 0.820150614, -0.0735745132, 0.567397356, 0, 0.991697431, 0.128593579, -0.572147667, -0.105466105, 0.81334126), 
+							["Hit"] = game.Workspace[v].Head
+						}, 
+						[5] = 
+						{
+							["RayObject"] = Ray.new(Vector3.new(827.412415, 101.489777, 2296.84326), Vector3.new(294.625824, 2.15741801, 270.538269)), 
+							["Distance"] = 4.4639973640442, 
+							["Cframe"] = CFrame.new(832.169434, 101.341301, 2300.73438, 0.784266233, -0.0537625961, 0.618090749, -3.7252903e-09, 0.99623847, 0.086654529, -0.620424569, -0.0679602176, 0.781316102), 
+							["Hit"] = game.Workspace[v].Head
+						}
+					}
+				local A_2 = game.Players.LocalPlayer.Backpack["Remington 870"]
+				local Event = game:GetService("ReplicatedStorage").ShootEvent
+				Event:FireServer(A_1, A_2)
+
+				wait(0.5)
+				workspace.Remote.TeamEvent:FireServer("Bright orange")
+				if game.Players[v].Character.Humanoid.Health < 1 then
+					game.StarterGui:SetCore("SendNotification", {
+						Title = " COMMAND ";
+						Text =  "Player Has been killed";
+						Icon = "rbxassetid://1873197208";
+						Duration = 8;
+					})   
+				else
+					game.StarterGui:SetCore("SendNotification", {
+						Title = " ERROR ";
+						Text =  "Player Has NOT killed";
+						Icon = "rbxassetid://1873197208";
+						Duration = 8;
+					})   
+
+				end
+
+			end
+		end
+	end
+end)
+
+crimtwo.MouseButton1Down:connect(function()
+	r:Play()
+	r.Volume = 2
+	local POSD = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame 
+	wait(.2)
+
+	local spawnes = CFrame.new(-920.510803, 92.2271957, 2138.27002, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = spawnes
+	game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["M9"].ITEMPICKUP) 
+
+
+	wait(.1)
+
+	local Target = Playertwo.Text
+
+	wait(.4)
+	game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["M9"].ITEMPICKUP) 
+
+	local NOW = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+	game.Players.LocalPlayer.Character.Humanoid.Name = 1
+	local l = game.Players.LocalPlayer.Character["1"]:Clone()
+	l.Parent = game.Players.LocalPlayer.Character
+	l.Name = "Humanoid"
+	wait()
+	game.Players.LocalPlayer.Character["1"]:Destroy()
+	game.Workspace.CurrentCamera.CameraSubject = game.Players.LocalPlayer.Character
+	game.Players.LocalPlayer.Character.Animate.Disabled = true
+	wait(0.1)
+	game.Players.LocalPlayer.Character.Animate.Disabled = false
+	game.Players.LocalPlayer.Character.Humanoid.DisplayDistanceType = "None"
+	for i,v in pairs(game:GetService'Players'.LocalPlayer.Backpack:GetChildren())do
+		game.Players.LocalPlayer.Character.Humanoid:EquipTool(v)
+	end
+	local function tp(player,player2)
+		local char1,char2=player.Character,player2.Character
+		if char1 and char2 then
+			char1.HumanoidRootPart.CFrame = char2.HumanoidRootPart.CFrame
+		end
+	end
+	local function getout(player,player2)
+		local char1,char2=player.Character,player2.Character
+		if char1 and char2 then
+			char1:MoveTo(char2.Head.Position)
+		end
+	end
+	tp(game.Players[Target], game.Players.LocalPlayer)
+	wait(0.1)
+	tp(game.Players[Target], game.Players.LocalPlayer)
+	wait(0.3)
+	getout(game.Players.LocalPlayer, game.Players[Target])
+	wait(0.2)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = NOW
+	wait(4)
+
+	for i,v in pairs(GetPlayer(Player.Text)) do
+		for k,j in pairs(game.Teams.Criminals:GetPlayers()) do
+			local playervvw = game.Players[v].Name
+			if j.Name == game.Players[v].Name then
+
+			end
+
+		end
+	end
+end)
+
+arresttwo.MouseButton1Down:connect(function()
+	r:Play()
+	r.Volume = 2
+	local saved = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+	wait(.2)
+	for i,v in pairs(GetPlayertwo(Playertwo.Text)) do
+		Playertwo.Text = game.Players[v].Name
+
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[v].Character.HumanoidRootPart.CFrame
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[v].Character.HumanoidRootPart.CFrame
+
+		workspace.Remote.arrest:InvokeServer(game.Players[v].Character.Torso)
+		wait(.1)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[v].Character.HumanoidRootPart.CFrame
+		workspace.Remote.arrest:InvokeServer(game.Players[v].Character.Torso)
+
+
+		wait(.1)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saved
+
+	end
+end)
+local lakes2 = false
+local yea2  = false
+lagtwo.MouseButton1Down:connect(function()
+	r:Play()
+	r.Volume = 2
+	lag.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+
+
+
+	wait(.2)
+	local savedk = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+	local M7 = 
+		{
+			game:GetService("Players").LocalPlayer,
+			"9","330","118"
+		}
+	game:GetService("Workspace").Remote.loadchar:InvokeServer(unpack(M7))
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = savedk
+
+
+
+	local POSD = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame 
+	wait(.2)
+	lakes2 = true
+	local spawnes = CFrame.new(-920.510803, 92.2271957, 2144.6709, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = spawnes
+	game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["M9"].ITEMPICKUP) 
+
+	while lakes2 == true do
+
+		wait(.1)
+
+		local Target = Playertwo.Text
+
+		wait(.4)
+		game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["M9"].ITEMPICKUP) 
+
+		local NOW = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+		game.Players.LocalPlayer.Character.Humanoid.Name = 1
+		local l = game.Players.LocalPlayer.Character["1"]:Clone()
+		l.Parent = game.Players.LocalPlayer.Character
+		l.Name = "Humanoid"
+		wait()
+		game.Players.LocalPlayer.Character["1"]:Destroy()
+		game.Workspace.CurrentCamera.CameraSubject = game.Players.LocalPlayer.Character
+		game.Players.LocalPlayer.Character.Animate.Disabled = true
+		wait(0.1)
+		game.Players.LocalPlayer.Character.Animate.Disabled = false
+		game.Players.LocalPlayer.Character.Humanoid.DisplayDistanceType = "None"
+		for i,v in pairs(game:GetService'Players'.LocalPlayer.Backpack:GetChildren())do
+			game.Players.LocalPlayer.Character.Humanoid:EquipTool(v)
+		end
+		local function tp(player,player2)
+			local char1,char2=player.Character,player2.Character
+			if char1 and char2 then
+				char1.HumanoidRootPart.CFrame = char2.HumanoidRootPart.CFrame
+			end
+		end
+		local function getout(player,player2)
+			local char1,char2=player.Character,player2.Character
+			if char1 and char2 then
+				char1:MoveTo(char2.Head.Position)
+			end
+		end
+		tp(game.Players[Target], game.Players.LocalPlayer)
+		wait(0.1)
+		tp(game.Players[Target], game.Players.LocalPlayer)
+		wait(0.3)
+		getout(game.Players.LocalPlayer, game.Players[Target])
+		wait(0.2)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = NOW
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = spawnes
+
+
+
+		for i,v in pairs(GetPlayertwo(Playertwo.Text)) do
+			for k,j in pairs(game.Teams.Criminals:GetPlayers()) do
+				local playervvw = game.Players[v].Name
+				if j.Name == game.Players[v].Name then
+					lakes2 = false
+					yea2 = true
+					wait(2)
+					yea2 = false
+					lag.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+
+					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = POSD
+					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = POSD
+
+
+					local savedk = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+					local M7 = 
+						{
+							game:GetService("Players").LocalPlayer,
+							"9","330","118"
+						}
+					game:GetService("Workspace").Remote.loadchar:InvokeServer(unpack(M7))
+					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = POSD
+					wait(.3)
+					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = POSD
+
+
+
+
+				end
+			end
+		end
+
+	end
+
+end)
+
+lagtwo.MouseButton2Down:connect(function()
+	yea2 = false
+	yea2 = false
+end)
+
+lagtwo.MouseButton1Down:connect(function()
+	while true do
+		wait()
+		if lakes2  == true then
+			lagtwo.Text = "LAG:Tru"
+		elseif lakes2 == false then
+			lagtwo.Text = "LAG:FLS"
+		end
+
+	end
+end)
+lagnumber = 150
+up.MouseButton1Down:connect(function()
+	lagnumber = lagnumber + 50
+end)
+down.MouseButton1Down:connect(function()
+	lagnumber = lagnumber - 50
+end)
+function under()
+	if lagnumber < 0 then
+		lagnumber = 0
+	end
+end
+
+
+lagtwo.MouseButton1Down:connect(function()
+	while true do
+		wait()
+		if yea2 == true then
+			for i,v in pairs(GetPlayertwo(Playertwo.Text)) do
+
+				local function spamarrest(plr)
+
+					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[v].Character.HumanoidRootPart.CFrame
+					local args = {
+						[1] = workspace[plr].HumanoidRootPart,
+					}
+					workspace.Remote.arrest:InvokeServer(unpack(args))
+				end
+
+				--ArrestScript
+				local dlayer = Playertwo.Text
+
+				local coroutines = {}
+
+				for i = 0, lagnum.Text do
+					local corout = coroutine.create(spamarrest)
+					coroutine.resume(corout, dlayer)
+					coroutines[i] = corout
+
+				end
+
+
+			end
+
+		end
+	end
+end)
+
+gototwo.MouseButton1Down:connect(function()
+	r:Play()
+	r.Volume = 2
+	for i,v in pairs(GetPlayertwo(Playertwo.Text)) do
+		Playertwo.Text = game.Players[v].Name
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[v].Character.HumanoidRootPart.CFrame
+	end
+end)
+
+
+
+Player.MouseEnter:connect(function()
+	rew:play()
+	rew.Volume = 2
+end)
+
+Player.MouseLeave:connect(function()
+	q:Play()
+	q.Volume = 2
+
+end)
+
+
+
+
+-- GetPlayer Function
+function GetPlayer(String)
+	local Found = {}
+	local strl = String:lower()
+	for i,v in pairs(game.Players:GetPlayers()) do
+		if v.Name:lower():sub(1, #String) == String:lower() then
+			table.insert(Found,v.Name)
+		end
+	end    
+	return Found    
+end
+local specs = false
+
+SPEC.MouseButton1Down:connect(function()
+	specs = true
+
+	r:Play()
+	r.Volume = 2
+	for i,v in pairs(GetPlayer(Player.Text)) do
+		Player.Text = game.Players[v].Name
+		while specs == true do
+			wait(.1)
+			workspace.CurrentCamera.CameraSubject = game.Players[v].Character.Humanoid
+		end
+		local yes = game.Players[v].Name
+
+		Player.Text = game.Players[v].Name
+	end	
+end)
+
+
+local lakes = false
+local over = false
+returnb.MouseButton1Down:connect(function()
+	r:Play()
+	specs = false
+	r.Volume = 2
+	for i,v in pairs(GetPlayer(Player.Text)) do
+		Player.Text = game.Players[v].Name
+		workspace.CurrentCamera.CameraSubject = game.Players.LocalPlayer.Character.Humanoid
+		workspace.CurrentCamera.CameraSubject = game.Players.LocalPlayer.Character.Humanoid
+		wait(.1)
+		workspace.CurrentCamera.CameraSubject = game.Players.LocalPlayer.Character.Humanoid
+
+		workspace.CurrentCamera.CameraSubject = game.Players.LocalPlayer.Character.Humanoid
+
+		workspace.CurrentCamera.CameraSubject = game.Players.LocalPlayer.Character.Humanoid
+
+		Player.Text = game.Players[v].Name
+
+	end
+end)
+
+
+local Plr = game:GetService("Players").LocalPlayer
+local Mouse = Plr:GetMouse()
+
+Mouse.Button1Down:connect(function()
+
+	if not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftControl) then return end
+	if not Mouse.Target then return end
+	print(Mouse.Target.Name)
+
+end)
+
+
+
+
+local clicker = false
+ctrldel.MouseButton1Down:connect(function()
+	clicker = true
+	r:Play()
+	r.Volume = 2
+	ctrldel_Roundify_12px.ImageColor3 = Color3.new(0, 1, 0)
+	local Plr = game:GetService("Players").LocalPlayer
+	local Mouse = Plr:GetMouse()
+
+	Mouse.Button1Down:connect(function()
+		if clicker == true then
+			if not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftControl) then return end
+			if not Mouse.Target then return end
+			Mouse.Target:Destroy()
+		end
+	end)
+end)
+ctrldel.MouseButton2Down:connect(function()
+	clicker = false
+	ctrldel_Roundify_12px.ImageColor3 = Color3.new(1, 0, 0)
+end)
+
+criminal.MouseButton1Down:connect(function()
+
+	r:Play()
+	r.Volume = 2
+	local sv = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-920.510803, 92.2271957, 2138.27002, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	wait(.2)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = sv
+
+end)
+inf = 0
+jumps = false
+value = 0
+TextButton.MouseButton1Down:connect(function()
+	value = 1
+
+	jumps  = true
+	infjumpround.ImageColor3 = Color3.new(0, 1, 0)
+	r:Play()
+	r.Volume = 2
+	huamoidroots = game.Players.LocalPlayer.Character.Humanoid
+
+
+	UserInputService = game:GetService("UserInputService")
+	UserInputService.InputBegan:connect(function(key)
+		if key.KeyCode == Enum.KeyCode.Space then
+			if jumps  == true then
+				if value == 1 then
+					value = 0
+					huamoidroots:ChangeState(Enum.HumanoidStateType.Jumping) 
+					wait(.5)
+					value = 1
+				end
+			end
+		end
+
+	end)
+end)
+mousedown = false
+TextButton.MouseButton1Down:connect(function()
+
+	user = game:GetService("UserInputService")
+	user.InputBegan:connect(function(key)
+		if key.KeyCode == Enum.KeyCode.Slash then
+			mousedown = true
+			jumps = false
+		end
+	end)
+end)
+TextButton.MouseButton1Down:connect(function()
+	mes = game.Players.LocalPlayer:GetMouse()
+	mes.Button1Down:connect(function()
+		if mousedown == true then
+			jumps = true
+			mousedown = false
+		else
+			print('FALSE')
+		end
+	end)
+end)
+
+TextButton.MouseButton1Down:connect(function()
+	user2 = game:GetService("UserInputService")
+	user2.InputBegan:connect(function(key)
+		if key.KeyCode == Enum.KeyCode.Return then
+			if mousedown == true then
+				jumps = true 
+				mousedown = false
+			end
+		end
+	end)
+end)
+
+TextButton.MouseButton2Down:connect(function()
+	infjumpround.ImageColor3 = Color3.new(1, 0, 0)
+	jumps = false
+end)
+
+local a = Instance.new("Sound")
+local d = 4891167628
+
+a.Parent = game.Workspace
+
+a.SoundId = "rbxassetid://"..d
+
+local fastrssa = false
+intres.MouseButton1Down:connect(function()
+	r:Play()
+	r.Volume = 2
+	fastrssa = true
+	game.StarterGui:SetCore("SendNotification", {
+		Title = " Toggle ";
+		Text =  "Right click to turn off";
+		Icon = "rbxassetid://2911715226";
+		Duration = 8;
+	})                 
+
+	intres_Roundify_12px.ImageColor3 = Color3.new(0, 1, 0)
+
+	while fastrssa == true do 
+		wait(.1)
+		if game.Players.LocalPlayer.Character.Humanoid.Health < 1 then 
+
+			local lastPos = game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").position
+			local plr = game.Players.LocalPlayer.Name
+			local gayevent = game:GetService("Workspace").Remote.loadchar
+			gayevent:InvokeServer(plr)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(lastPos)
+			game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["Remington 870"].ITEMPICKUP) 
+			wait(.1)
+			game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["M4A1"].ITEMPICKUP) 
+			local Plr = game.Players.LocalPlayer
+			a:Play()
+			a.Volume = 4
+
+			for i, v in pairs(Plr.Backpack:children()) do 
+				local gunstates = v:findFirstChild("GunStates")
+				local wenor = require(gunstates)
+
+
+				wenor.ReloadTime = 0
+				wenor.AutoFire = false
+				wenor.Bullets = 12
+
+
+
+			end
+
+
+		end
+	end
+end)
+
+intres.MouseButton2Down:connect(function()
+	r:Play()
+	r.Volume = 2
+
+	intres_Roundify_12px.ImageColor3 = Color3.new(1, 0, 0)
+	game.StarterGui:SetCore("SendNotification", {
+		Title = " Toggle ";
+		Text =  "INTRES Off";
+		Icon = "rbxassetid://2911715226";
+		Duration = 8;
+	})                 
+
+	fastrssa = false
+end)
+
+arrest.MouseButton1Down:connect(function()
+	teamoo = game.Players.LocalPlayer.TeamColor.Name
+	r:Play()
+	r.Volume = 2
+	local saved = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+	wait(.2)
+	for i,v in pairs(GetPlayer(Player.Text)) do
+		Player.Text = game.Players[v].Name
+
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[v].Character.HumanoidRootPart.CFrame
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[v].Character.HumanoidRootPart.CFrame
+
+		workspace.Remote.arrest:InvokeServer(game.Players[v].Character.Torso)
+		wait(.1)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[v].Character.HumanoidRootPart.CFrame
+		workspace.Remote.arrest:InvokeServer(game.Players[v].Character.Torso)
+
+
+		wait(.1)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saved
+		workspace.Remote.TeamEvent:FireServer(teamoo)
+
+
+	end
+end)
+
+
+
+
+
+
+
+
+goto.MouseButton1Down:connect(function()
+	r:Play()
+	r.Volume = 2
+	for i,v in pairs(GetPlayer(Player.Text)) do
+		Player.Text = game.Players[v].Name
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[v].Character.HumanoidRootPart.CFrame
+	end
+end)
+
+guns.MouseButton1Down:connect(function()
+	r:Play()
+	r.Volume = 2
+	game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["Remington 870"].ITEMPICKUP) 
+	wait(.1)
+	game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["M4A1"].ITEMPICKUP) 
+end)
+
+
+ki = 6
+killtwo.MouseButton1Down:connect(function()
+	while true do
+		wait(.1)
+		kicount.Text = "KI = "..ki
+		if game.Players.LocalPlayer.Character.Humanoid.Health == 0 then
+			ki = 6
+		end
+	end
+end)
+
+
+killall_Roundify_12px.ImageColor3 = Color3.new(0, 1, 0)
+
+kill.MouseButton1Down:connect(function()
+	teamo1 = game.Players.LocalPlayer.TeamColor.Name
+
+	ki = ki-1
+	r:Play()
+	r.Volume = 2
+	if ki == 0 then
+		game.Players.LocalPlayer.Character.Humanoid.Health = 0
+		las = game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").position
+		plt = game.Players.LocalPlayer.Name
+		tes = game:GetService("Workspace").Remote.loadchar
+		tes:InvokeServer(plt)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(las)
+
+		ki = 6
+
+	else
+		game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["Remington 870"].ITEMPICKUP) 
+		for i,v in pairs(GetPlayer(Player.Text)) do
+			Player.Text = game.Players[v].Name
+
+			if game.Players[v].TeamColor.Name == ("Medium stone grey") then
+				workspace.Remote.TeamEvent:FireServer("Bright orange")
+
+				local A_1 = 
+					{
+						[1] = 
+						{
+							["RayObject"] = Ray.new(Vector3.new(827.412415, 101.489777, 2296.84326), Vector3.new(277.738678, 6.89340925, 287.773712)), 
+							["Distance"] = 4.7204174995422, 
+							["Cframe"] = CFrame.new(832.049377, 101.392006, 2300.97168, 0.843892097, -0.0554918349, 0.533635378, 0, 0.994636595, 0.103430569, -0.536512911, -0.0872842371, 0.839366019), 
+							["Hit"] = game.Workspace[v].Head
+						}, 
+						[2] = 
+						{
+							["RayObject"] = Ray.new(Vector3.new(827.412415, 101.489777, 2296.84326), Vector3.new(303.047546, 21.3568707, 260.203888)), 
+							["Distance"] = 4.8114862442017, 
+							["Cframe"] = CFrame.new(832.390259, 101.550629, 2300.74097, 0.738044441, -0.112958886, 0.665229917, 7.45057971e-09, 0.985887885, 0.16740793, -0.674752235, -0.123554483, 0.727628946), 
+							["Hit"] = game.Workspace[v].Head
+						}, 
+						[3] = 
+						{
+							["RayObject"] = Ray.new(Vector3.new(827.412415, 101.489777, 2296.84326), Vector3.new(296.800507, 7.00420141, 268.067932)), 
+							["Distance"] = 4.444625377655, 
+							["Cframe"] = CFrame.new(832.185486, 101.391617, 2300.70264, 0.775115669, -0.0692948848, 0.628007889, 7.45057971e-09, 0.993967533, 0.109675139, -0.631819367, -0.0850109085, 0.770439863), 
+							["Hit"] = game.Workspace[v].Head
+						}, 
+						[4] = 
+						{
+							["RayObject"] = Ray.new(Vector3.new(827.412415, 101.489777, 2296.84326), Vector3.new(284.930573, 11.9850616, 280.483368)), 
+							["Distance"] = 4.6211166381836, 
+							["Cframe"] = CFrame.new(832.10083, 101.445007, 2300.86963, 0.820150614, -0.0735745132, 0.567397356, 0, 0.991697431, 0.128593579, -0.572147667, -0.105466105, 0.81334126), 
+							["Hit"] = game.Workspace[v].Head
+						}, 
+						[5] = 
+						{
+							["RayObject"] = Ray.new(Vector3.new(827.412415, 101.489777, 2296.84326), Vector3.new(294.625824, 2.15741801, 270.538269)), 
+							["Distance"] = 4.4639973640442, 
+							["Cframe"] = CFrame.new(832.169434, 101.341301, 2300.73438, 0.784266233, -0.0537625961, 0.618090749, -3.7252903e-09, 0.99623847, 0.086654529, -0.620424569, -0.0679602176, 0.781316102), 
+							["Hit"] = game.Workspace[v].Head
+						}
+					}
+				local A_2 = game.Players.LocalPlayer.Backpack["Remington 870"]
+				local Event = game:GetService("ReplicatedStorage").ShootEvent
+				Event:FireServer(A_1, A_2)
+
+				wait(0.5)
+				workspace.Remote.TeamEvent:FireServer(teamo1)
+				if game.Players[v].Character.Humanoid.Health < 1 then
+					game.StarterGui:SetCore("SendNotification", {
+						Title = " COMMAND ";
+						Text =  "Player Has been killed";
+						Icon = "rbxassetid://1873197208";
+						Duration = 8;
+					})   
+				else
+					game.StarterGui:SetCore("SendNotification", {
+						Title = " ERROR ";
+						Text =  "Player Has NOT killed";
+						Icon = "rbxassetid://1873197208";
+						Duration = 8;
+					})   
+
+				end
+			else
+				wait(0.1)
+				workspace.Remote.TeamEvent:FireServer("Medium stone grey")
+
+				local A_1 = 
+					{
+						[1] = 
+						{
+							["RayObject"] = Ray.new(Vector3.new(827.412415, 101.489777, 2296.84326), Vector3.new(277.738678, 6.89340925, 287.773712)), 
+							["Distance"] = 4.7204174995422, 
+							["Cframe"] = CFrame.new(832.049377, 101.392006, 2300.97168, 0.843892097, -0.0554918349, 0.533635378, 0, 0.994636595, 0.103430569, -0.536512911, -0.0872842371, 0.839366019), 
+							["Hit"] = game.Workspace[v].Head
+						}, 
+						[2] = 
+						{
+							["RayObject"] = Ray.new(Vector3.new(827.412415, 101.489777, 2296.84326), Vector3.new(303.047546, 21.3568707, 260.203888)), 
+							["Distance"] = 4.8114862442017, 
+							["Cframe"] = CFrame.new(832.390259, 101.550629, 2300.74097, 0.738044441, -0.112958886, 0.665229917, 7.45057971e-09, 0.985887885, 0.16740793, -0.674752235, -0.123554483, 0.727628946), 
+							["Hit"] = game.Workspace[v].Head
+						}, 
+						[3] = 
+						{
+							["RayObject"] = Ray.new(Vector3.new(827.412415, 101.489777, 2296.84326), Vector3.new(296.800507, 7.00420141, 268.067932)), 
+							["Distance"] = 4.444625377655, 
+							["Cframe"] = CFrame.new(832.185486, 101.391617, 2300.70264, 0.775115669, -0.0692948848, 0.628007889, 7.45057971e-09, 0.993967533, 0.109675139, -0.631819367, -0.0850109085, 0.770439863), 
+							["Hit"] = game.Workspace[v].Head
+						}, 
+						[4] = 
+						{
+							["RayObject"] = Ray.new(Vector3.new(827.412415, 101.489777, 2296.84326), Vector3.new(284.930573, 11.9850616, 280.483368)), 
+							["Distance"] = 4.6211166381836, 
+							["Cframe"] = CFrame.new(832.10083, 101.445007, 2300.86963, 0.820150614, -0.0735745132, 0.567397356, 0, 0.991697431, 0.128593579, -0.572147667, -0.105466105, 0.81334126), 
+							["Hit"] = game.Workspace[v].Head
+						}, 
+						[5] = 
+						{
+							["RayObject"] = Ray.new(Vector3.new(827.412415, 101.489777, 2296.84326), Vector3.new(294.625824, 2.15741801, 270.538269)), 
+							["Distance"] = 4.4639973640442, 
+							["Cframe"] = CFrame.new(832.169434, 101.341301, 2300.73438, 0.784266233, -0.0537625961, 0.618090749, -3.7252903e-09, 0.99623847, 0.086654529, -0.620424569, -0.0679602176, 0.781316102), 
+							["Hit"] = game.Workspace[v].Head
+						}
+					}
+				local A_2 = game.Players.LocalPlayer.Backpack["Remington 870"]
+				local Event = game:GetService("ReplicatedStorage").ShootEvent
+				Event:FireServer(A_1, A_2)
+
+				wait(0.5)
+				workspace.Remote.TeamEvent:FireServer(teamo1)
+				if game.Players[v].Character.Humanoid.Health < 1 then
+					game.StarterGui:SetCore("SendNotification", {
+						Title = " COMMAND ";
+						Text =  "Player Has been killed";
+						Icon = "rbxassetid://1873197208";
+						Duration = 8;
+					})   
+				else
+					game.StarterGui:SetCore("SendNotification", {
+						Title = " ERROR ";
+						Text =  "Player Has NOT killed";
+						Icon = "rbxassetid://1873197208";
+						Duration = 8;
+					})   
+
+				end
+			end
+		end
+	end
+end)
+plnum = 0
+for h, p in pairs(game.Players:GetPlayers()) do
+	plnum = plnum+1
+end
+game.Players.ChildAdded:connect(function(player)
+	if not pcall(function()
+			plnum = plnum+1
+			game.StarterGui:SetCore("SendNotification", {
+				Title = player.Name.. " Joined";
+				Text = player.Name.. " has joined the game";
+				Icon = "rbxassetid://5586301242";
+				Duration = 8;
+			})   
+			if Player.Text == player.Name   then
+				lakes = false
+				yea = false
+			end
+		end) then
+		print("Error")
+	end
+end)
+
+game.Players.ChildRemoved:connect(function(player)
+	plnum = plnum-1
+	if not pcall (function()
+			game.StarterGui:SetCore("SendNotification", {
+				Title = player.Name.. " Left";
+				Text = player.Name.. " has left the game";
+				Icon = "rbxassetid://28668047";
+				Duration = 8;
+			})
+		end) then
+		print("Error")
+	end
+end)
+
+goto.MouseButton1Down:connect(function()
+	r:Play()
+	r.Volume = 2
+	for i,v in pairs(GetPlayer(Player.Text)) do
+		Player.Text = game.Players[v].Name
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[v].Character.HumanoidRootPart.CFrame
+	end
+end)
+
+guards.MouseButton1Down:connect(function()
+	r:Play()
+	r.Volume = 2
+	workspace.Remote.TeamEvent:FireServer("Bright blue")
+
+end)
+
+
+
+
+
+inamte.MouseButton1Down:connect(function()
+	r:Play()
+	r.Volume = 2
+	workspace.Remote.TeamEvent:FireServer("Bright orange")
+
+end)
+local sits = false
+
+local wr = false
+local debounce = true
+local trus = false
+local sits22 = false
+
+local guardtrue = false
+local function antidec()
+	if game.Players.LocalPlayer.TeamColor.Name == "Bright blue" then
+		sits22 = false
+		guardtrue = true
+	else
+		guardtrue = false
+	end
+end
+
+eactive = false
+antispam.MouseButton1Down:connect(function()
+	eactive = true
+	r:Play()
+	r.Volume = 2
+	ww = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+end)
+
+
+local h = Instance.new("Sound")
+local j = 835453154
+
+h.Parent = game.Workspace
+
+h.SoundId = "rbxassetid://"..j
+local plrrrss = game.Players.LocalPlayer
+local function anti(otherPart)
+
+	wait()
+	if trus == true then
+		if debounce == true then
+
+			if otherPart.Parent == game.Players.LocalPlayer.Character  then
+				debounce = false
+				antidec()
+				wait(.1)
+				game.StarterGui:SetCore("SendNotification", {
+					Title = " AntiSpam ";
+					Text =  "DETECTED THREAT";
+					Icon = "rbxassetid://4735901902";
+					Duration = 8;
+				})                 
+
+
+				antispam_Roundify_12px.ImageColor3 = Color3.fromRGB(85, 255, 0)
+
+				h:Play()
+				h.Volume = 2
+				sits = true
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = ww
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = ww
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = ww
+				wait()
+				local saveds = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+				local M7 = 
+					{
+						game:GetService("Players").LocalPlayer,
+						"Magenta"
+					}
+				game:GetService("Workspace").Remote.loadchar:InvokeServer(unpack(M7))
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saveds
+				local saveds = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+				local M7 = 
+					{
+						game:GetService("Players").LocalPlayer,
+						"Magenta"
+					}
+				game:GetService("Workspace").Remote.loadchar:InvokeServer(unpack(M7))
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saveds
+				local saveds = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+				local M7 = 
+					{
+						game:GetService("Players").LocalPlayer,
+						"Magenta"
+					}
+				game:GetService("Workspace").Remote.loadchar:InvokeServer(unpack(M7))
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saveds
+				while sits == true do
+					workspace.Remote.TeamEvent:FireServer("Medium stone grey")
+
+
+
+					wait(.1)
+					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = ww
+					local CLIENT = game.Players.LocalPlayer.Character.Humanoid
+					CLIENT.Sit = true
+
+				end
+				wait(2)
+				debounce = true
+
+
+
+
+
+
+			end
+		end
+	end
+
+
+end
+
+
+
+
+
+local sits2 = false
+
+
+local gmodes = false
+
+local ggg = game.Players.LocalPlayer
+gmode.MouseButton1Down:connect(function()
+	r:Play()
+	r.Volume = 2
+	gmode_Roundify_12px.ImageColor3 = Color3.new(0, 1, 0)
+	gmodes = true
+	workspace.Remote.TeamEvent:FireServer("Bright blue")
+	wait(.2)
+	local plre = game.Players.LocalPlayer.Name
+	local wwww = game:GetService("Workspace").Remote.loadchar
+	wwww:InvokeServer(plre)
+	for g, t in pairs(game.Teams.Guards:GetPlayers()) do
+		if t ~= ggg.Name then
+			while gmodes == true do
+
+				wait(4)
+				local lastPos = game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").position
+				local plr = game.Players.LocalPlayer.Name
+				local gayevent = game:GetService("Workspace").Remote.loadchar
+				gayevent:InvokeServer(plr)
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(lastPos)
+
+			end
+		else 
+		end
+	end
+end)
+
+
+gmode.MouseButton2Down:connect(function()
+	gmode_Roundify_12px.ImageColor3 = Color3.new(1, 0, 0)
+
+	gmodes = false
+
+end)
+
+
+
+
+local function anti2()
+
+	if trus == true then
+		if debounce == true then
+			antidec()
+
+			if guardtrue == false then
+
+				wait(.1)
+				game.StarterGui:SetCore("SendNotification", {
+					Title = " AntiSpam ";
+					Text =  "DETECTED THREAT";
+					Icon = "rbxassetid://4735901902";
+					Duration = 8;
+				})                 
+
+				antispam_Roundify_12px.ImageColor3 = Color3.fromRGB(85, 255, 0)
+				h:Play()
+				h.Volume = 2
+
+				sits22 = true
+
+				wait(.1)
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = ww
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = ww
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = ww
+				wait()
+				local saveds = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+				local M7 = 
+					{
+						game:GetService("Players").LocalPlayer,
+						"Magenta"
+					}
+				game:GetService("Workspace").Remote.loadchar:InvokeServer(unpack(M7))
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saveds
+				local saveds = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+				local M7 = 
+					{
+						game:GetService("Players").LocalPlayer,
+						"Magenta"
+					}
+				game:GetService("Workspace").Remote.loadchar:InvokeServer(unpack(M7))
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saveds
+				local saveds = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+				local M7 = 
+					{
+						game:GetService("Players").LocalPlayer,
+						"Magenta"
+					}
+				game:GetService("Workspace").Remote.loadchar:InvokeServer(unpack(M7))
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saveds
+			end
+			while sits22 == true do
+				if guardtrue == false then
+					wait(.1)
+					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = ww
+					local CLIENT = game.Players.LocalPlayer.Character.Humanoid
+					CLIENT.Sit = true
+				else
+				end
+
+
+			end
+			wait(2)
+			debounce = true
+
+
+		end
+	end
+end
+
+
+
+local rr = game.Workspace["Criminals Spawn"].SpawnLocation
+rr.Name = "tt"
+wait(.1)
+local ff = game.Workspace["Criminals Spawn"].SpawnLocation
+ff.Name = "yy"
+wait(.1)
+
+local ww = game.Workspace["Criminals Spawn"].SpawnLocation
+ww.Name = "uu"
+wait(.1)
+
+local www = game.Workspace["Criminals Spawn"].SpawnLocation
+www.Name = "ii"
+wait(.1)
+
+local wwww = game.Workspace["Criminals Spawn"].SpawnLocation
+wwww.Name = "oo"
+wait(.1)
+
+local wwwww = game.Workspace["Criminals Spawn"].SpawnLocation
+
+wwwww.Name = "pp"
+wait(.1)
+local uu = game.Workspace["Criminals Spawn"].SpawnLocation
+
+uu.Name = "qq"
+wait(1)
+
+
+
+antispam.MouseButton1Down:connect(function()
+	game.StarterGui:SetCore("SendNotification", {
+		Title = " AntiSpam ";
+		Text =  "Do not Get a M9 Or AK";
+		Icon = "rbxassetid://240664703";
+		Duration = 8;
+	})                 
+
+	trus = true
+	antispam_Roundify_12px.ImageColor3 = Color3.fromRGB(85, 255, 0)
+
+
+
+
+	uu.Touched:connect(anti)
+	www.Touched:connect(anti)
+
+	wwww.Touched:connect(anti)
+	wwwww.Touched:connect(anti)
+	ww.Touched:connect(anti)
+	rr.Touched:connect(anti)
+	ff.Touched:connect(anti)
+
+
+	anti()
+
+end)
+
+
+
+antispam.MouseButton1Down:connect(function()
+	local M9 = "M9"
+	local we = 	M9
+	local wee = "AK-47"
+	wait(.2)
+	while trus == true do
+		wait(.1)
+		for i,v in pairs(game:GetService'Players'.LocalPlayer.Backpack:GetChildren())do
+			if v.Name == we then
+
+				anti2()
+			elseif v.Name == wee then
+				anti2()
+			end
+		end
+	end
+end)
+
+antispam.MouseButton2Down:connect(function()
+	workspace.Remote.TeamEvent:FireServer("Bright orange")
+	local a = game.Players.LocalPlayer.Character.Humanoid
+	a.Sit = false
+	antispam_Roundify_12px.ImageColor3 = Color3.fromRGB(255, 0, 0)
+	sits = false
+	trus = false
+	sits22 = false
+	active = false
+	game.Players.LocalPlayer.Character.humanoid.Sit = false
+end)
+
+lag.MouseButton1Down:connect(function()
+	r:Play()
+	r.Volume = 2
+	lag.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+
+
+
+	wait(.2)
+	local savedk = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+	local M7 = 
+		{
+			game:GetService("Players").LocalPlayer,
+			"9","330","118"
+		}
+	game:GetService("Workspace").Remote.loadchar:InvokeServer(unpack(M7))
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = savedk
+
+
+
+	local POSD = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame 
+	wait(.2)
+	lakes = true
+	local spawnes = CFrame.new(-920.510803, 92.2271957, 2144.6709, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = spawnes
+	game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["M9"].ITEMPICKUP) 
+
+	while lakes == true do
+
+		wait(.1)
+
+		local Target = Player.Text
+
+		wait(.4)
+		game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["M9"].ITEMPICKUP) 
+
+		local NOW = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+		game.Players.LocalPlayer.Character.Humanoid.Name = 1
+		local l = game.Players.LocalPlayer.Character["1"]:Clone()
+		l.Parent = game.Players.LocalPlayer.Character
+		l.Name = "Humanoid"
+		wait()
+		game.Players.LocalPlayer.Character["1"]:Destroy()
+		game.Workspace.CurrentCamera.CameraSubject = game.Players.LocalPlayer.Character
+		game.Players.LocalPlayer.Character.Animate.Disabled = true
+		wait(0.1)
+		game.Players.LocalPlayer.Character.Animate.Disabled = false
+		game.Players.LocalPlayer.Character.Humanoid.DisplayDistanceType = "None"
+		for i,v in pairs(game:GetService'Players'.LocalPlayer.Backpack:GetChildren())do
+			game.Players.LocalPlayer.Character.Humanoid:EquipTool(v)
+		end
+		local function tp(player,player2)
+			local char1,char2=player.Character,player2.Character
+			if char1 and char2 then
+				char1.HumanoidRootPart.CFrame = char2.HumanoidRootPart.CFrame
+			end
+		end
+		local function getout(player,player2)
+			local char1,char2=player.Character,player2.Character
+			if char1 and char2 then
+				char1:MoveTo(char2.Head.Position)
+			end
+		end
+		tp(game.Players[Target], game.Players.LocalPlayer)
+		wait(0.1)
+		tp(game.Players[Target], game.Players.LocalPlayer)
+		wait(0.3)
+		getout(game.Players.LocalPlayer, game.Players[Target])
+		wait(0.2)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = NOW
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = spawnes
+
+
+
+		for i,v in pairs(GetPlayer(Player.Text)) do
+			for k,j in pairs(game.Teams.Criminals:GetPlayers()) do
+				local playervvw = game.Players[v].Name
+				if j.Name == game.Players[v].Name then
+					lakes = false
+					yea = true
+					wait(2)
+					yea = false
+					lag.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+
+					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = POSD
+					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = POSD
+
+
+					local savedk = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+					local M7 = 
+						{
+							game:GetService("Players").LocalPlayer,
+							"9","330","118"
+						}
+					game:GetService("Workspace").Remote.loadchar:InvokeServer(unpack(M7))
+					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = POSD
+					wait(.3)
+					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = POSD
+
+
+
+
+				end
+			end
+		end
+
+	end
+
+end)
+
+
+
+
+lag.MouseButton2Down:connect(function()
+	yea = false
+	yea = false
+	lag.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+
+end)
+
+returnb.MouseButton2Down:connect(function()
+	r:Play()
+	r.Volume = 2
+	over = false
+	lakes = false
+
+end)
+lag.MouseButton1Down:connect(function()
+	while true do
+		wait()
+		if lakes  == true then
+			lag.Text = "LAG:Tru"
+		elseif lakes == false then
+			lag.Text = "LAG:False"
+		end
+
+	end
+end)
+
+lag.MouseButton1Down:connect(function()
+	while true do
+		wait()
+		if yea == true then
+			for i,v in pairs(GetPlayer(Player.Text)) do
+
+				local function spamarrest(plr)
+
+					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[v].Character.HumanoidRootPart.CFrame
+					local args = {
+						[1] = workspace[plr].HumanoidRootPart,
+					}
+					workspace.Remote.arrest:InvokeServer(unpack(args))
+				end
+
+				--ArrestScript
+				local dlayer = Player.Text
+
+				local coroutines = {}
+
+				for i = 0, lagnum.Text do
+					local corout = coroutine.create(spamarrest)
+					coroutine.resume(corout, dlayer)
+					coroutines[i] = corout
+
+				end
+
+
+			end
+
+		end
+	end
+end)
+local TV2 = false
+hitboxes.MouseButton1Down:connect(function()
+	hitboxes_Roundify_12px.ImageColor3 = Color3.new(0, 1, 0)
+	r:Play()
+	r.Volume = 2
+	TV2 = true
+	local Player = game:GetService("Players").LocalPlayer
+
+	game:GetService("RunService").Stepped:connect(function()
+		if TV2 == true then
+
+
+			for i,v in pairs (game.Teams.Guards:GetPlayers()) do
+
+				if v.TeamColor ~= Player.TeamColor and v.Name ~= Player.Name then
+					v.Character.HumanoidRootPart.Size = Vector3.new(8,8,8)
+					v.Character.HumanoidRootPart.Material = "Glass"
+					v.Character.HumanoidRootPart.BrickColor = BrickColor.new(23)
+					v.Character.HumanoidRootPart.Transparency = 0.9
+					if v.Character.Humanoid.Health == 0 then
+						v.Character.HumanoidRootPart.CanCollide = false
+					end
+
+
+				else
+					v.Character.HumanoidRootPart.Transparency = 1
+
+				end
+
+			end
+		end
+	end)
+end)
+
+hitboxes.MouseButton1Down:connect(function()
+	local Player = game:GetService("Players").LocalPlayer
+
+	game:GetService("RunService").Stepped:connect(function()
+		if TV2 == true then
+
+
+			for i,v in pairs (game.Teams.Inmates:GetPlayers()) do
+
+				if v.TeamColor ~= Player.TeamColor and v.Name ~= Player.Name then
+					v.Character.HumanoidRootPart.Size = Vector3.new(8,8,8)
+					v.Character.HumanoidRootPart.Material = "Glass"
+					v.Character.HumanoidRootPart.BrickColor = BrickColor.new(12)
+					v.Character.HumanoidRootPart.Transparency = 0.9
+					if v.Character.Humanoid.Health == 0 then
+						v.Character.HumanoidRootPart.CanCollide = false
+					end
+
+
+				else
+					v.Character.HumanoidRootPart.Transparency = 1
+
+				end
+
+			end
+		end
+	end)
+end)
+
+hitboxes.MouseButton1Down:connect(function()
+	local Player = game:GetService("Players").LocalPlayer
+
+	game:GetService("RunService").Stepped:connect(function()
+		if TV2 == true then
+
+
+			for i,v in pairs (game.Teams.Criminals:GetPlayers()) do
+
+				if v.TeamColor ~= Player.TeamColor and v.Name ~= Player.Name then
+					v.Character.HumanoidRootPart.Size = Vector3.new(8,8,8)
+					v.Character.HumanoidRootPart.Material = "Glass"
+					v.Character.HumanoidRootPart.BrickColor = BrickColor.new(21)
+					v.Character.HumanoidRootPart.Transparency = 0.9
+					if v.Character.Humanoid.Health == 0 then
+						v.Character.HumanoidRootPart.CanCollide = false
+					end
+
+
+				else
+					v.Character.HumanoidRootPart.Transparency = 1
+
+				end
+
+			end
+		end
+	end)
+end)
+
+hitboxes.MouseButton2Down:connect(function()
+	hitboxes_Roundify_12px.ImageColor3 = Color3.new(1, 0, 0)
+	TV2 = false
+end)
+
+onepunch.MouseButton1Down:connect(function()
+	r:Play()
+	r.Volume = 2
+	game.StarterGui:SetCore("SendNotification", {
+		Title = " Toggle ";
+		Text =  "Right click to turn off";
+		Icon = "rbxassetid://2911715226";
+		Duration = 8;
+	})         
+	onepunch_Roundify_12px.ImageColor3 = Color3.new(0, 1, 0)
+
+	local mainRemotes = game.ReplicatedStorage meleeRemote = mainRemotes['meleeEvent'] mouse = game.Players.LocalPlayer:GetMouse() local punching = false cooldown = false function punch() cooldown = true local part = Instance.new("Part", game.Players.LocalPlayer.Character) part.Transparency = 1 part.Size = Vector3.new(5, 2, 3) part.CanCollide = false local w1 = Instance.new("Weld", part) w1.Part0 = game.Players.LocalPlayer.Character.Torso w1.Part1 = part w1.C1 = CFrame.new(0,0,2) part.Touched:connect(function(hit) if game.Players:FindFirstChild(hit.Parent.Name) then local plr = game.Players:FindFirstChild(hit.Parent.Name) if plr.Name ~= game.Players.LocalPlayer.Name then part:Destroy() for i = 1,100 do meleeRemote:FireServer(plr) end end end end) wait(1) cooldown = false part:Destroy() end mouse.KeyDown:connect(function(key) if cooldown == false then if key:lower() == "f" then punch() end end end)
+
+end)
+
+onepunch.MouseButton2Down:connect(function()
+	r:Play()
+	r.Volume = 2
+	onepunch_Roundify_12px.ImageColor3 = Color3.new(1, 0, 0)
+
+	cooldown = true
+end)
+
+nohat.MouseButton1Down:connect(function()
+	r:Play()
+	r.Volume = 2
+	for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+		if (v:IsA("Accessory")) then
+			v.Parent = workspace
+		end
+	end
+
+
+end)
+delmesh.MouseButton1Down:connect(function()
+	r:Play()
+	r.Volume = 2
+	for _,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+		if (v:IsA("Accessory")) and v.Handle:FindFirstChild("Mesh") then
+			v.Handle:FindFirstChild("Mesh"):remove()
+		end
+	end
+	for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+		if (v:IsA("Accessory")) then
+			v.Parent = workspace
+		end
+	end
+	wait(0.1)
+end)
+reset.MouseButton1Down:connect(function()
+	r:Play()
+	r.Volume = 2
+	game.Players.LocalPlayer.Character.Humanoid.Health = 0
+	local A_1 = "LocalPlayer"
+	local saved = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+	local Event = game:GetService("Workspace").Remote.loadchar
+	Event:InvokeServer(A_1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = saved
+
+end)
+
+neutral.MouseButton1Down:connect(function()
+	r:Play()
+	r.Volume = 2
+	workspace.Remote.TeamEvent:FireServer("Medium stone grey")
+
+end)
+local earstes = false
+EARST.MouseButton1Down:connect(function()
+	r:Play()
+	r.Volume = 2
+	earstes = true
+	EARST_Roundify_12px.ImageColor3 = Color3.new(0, 1, 0)
+	local mouse = game.Players.LocalPlayer:GetMouse()
+	local arrestEvent = game.Workspace.Remote.arrest
+	local UserInputService = game:GetService("UserInputService")
+	UserInputService.InputBegan:connect(function(key)
+		if key.KeyCode == Enum.KeyCode.E then
+			if earstes == true then
+				local obj = mouse.Target
+				local response = arrestEvent:InvokeServer(obj)
+			end
+		end
+	end)
+end)
+
+EARST.MouseButton2Down:connect(function()
+	EARST_Roundify_12px.ImageColor3 = Color3.new(1, 0, 0)
+	earstes = false
+end)
+
+
+
+local mkcrimss = false
+local loopingcrimplr = false
+crim.MouseButton1Down:connect(function()
+	r:Play()
+	r.Volume = 2
+	local POSD = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame 
+	wait(.2)
+	lakes = true
+	local spawnes = CFrame.new(-920.510803, 92.2271957, 2138.27002, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = spawnes
+	game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["M9"].ITEMPICKUP) 
+
+
+	wait(.1)
+
+	local Target = Player.Text
+
+	wait(.4)
+	game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["M9"].ITEMPICKUP) 
+
+	local NOW = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+	game.Players.LocalPlayer.Character.Humanoid.Name = 1
+	local l = game.Players.LocalPlayer.Character["1"]:Clone()
+	l.Parent = game.Players.LocalPlayer.Character
+	l.Name = "Humanoid"
+	wait()
+	game.Players.LocalPlayer.Character["1"]:Destroy()
+	game.Workspace.CurrentCamera.CameraSubject = game.Players.LocalPlayer.Character
+	game.Players.LocalPlayer.Character.Animate.Disabled = true
+	wait(0.1)
+	game.Players.LocalPlayer.Character.Animate.Disabled = false
+	game.Players.LocalPlayer.Character.Humanoid.DisplayDistanceType = "None"
+	for i,v in pairs(game:GetService'Players'.LocalPlayer.Backpack:GetChildren())do
+		game.Players.LocalPlayer.Character.Humanoid:EquipTool(v)
+	end
+	local function tp(player,player2)
+		local char1,char2=player.Character,player2.Character
+		if char1 and char2 then
+			char1.HumanoidRootPart.CFrame = char2.HumanoidRootPart.CFrame
+		end
+	end
+	local function getout(player,player2)
+		local char1,char2=player.Character,player2.Character
+		if char1 and char2 then
+			char1:MoveTo(char2.Head.Position)
+		end
+	end
+	tp(game.Players[Target], game.Players.LocalPlayer)
+	wait(0.1)
+	tp(game.Players[Target], game.Players.LocalPlayer)
+	wait(0.3)
+	getout(game.Players.LocalPlayer, game.Players[Target])
+	wait(0.2)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = NOW
+	wait(4)
+
+	for i,v in pairs(GetPlayer(Player.Text)) do
+		for k,j in pairs(game.Teams.Criminals:GetPlayers()) do
+			local playervvw = game.Players[v].Name
+			if j.Name == game.Players[v].Name then
+			else
+			end
+
+		end
+	end
+
+
+end)
+
+
+
+g = Instance.new("Sound")
+t = 289556450
+
+g.Parent = game.Workspace
+
+g.SoundId = "rbxassetid://"..t
+
+tower.MouseButton1Down:connect(function()
+	g:Play()
+	g.Volume = 2
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(818.930237, 130.039948, 2568.354)
+end)
+
+base.MouseButton1Down:connect(function()
+	g:Play()
+	g.Volume = 2
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-856.46051, 94.4760513, 2065.61914)
+end)
+
+nex.MouseButton1Down:connect(function()
+	g:Play()
+	g.Volume = 2
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(913.398865, 99.9900055, 2381.50122)
+end)
+
+roof.MouseButton1Down:connect(function()	
+	g:Play()
+	g.Volume = 2
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(831.953857, 118.990005, 2367.0376)
+end)
+
+fstwalk.MouseButton1Down:connect(function()
+	r:Play()
+	r.Volume = 2
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
+end)
+
+oneshot.MouseButton1Down:connect(function()
+	r:Play()
+	r.Volume = 2
+	local Plr = game.Players.LocalPlayer
+
+
+	for i, v in pairs(Plr.Backpack:children()) do 
+		gunstates = v:findFirstChild("GunStates")
+		wenor = require(gunstates)
+
+
+		wenor.ReloadTime = 0
+		wenor.AutoFire = false
+		wenor.Bullets = 20
+
+
+
+	end
+end)
+oo = false
+num = 0
+function numes()
+	if num == 1 then
+		game.StarterGui:SetCore("SendNotification", {
+			Title = " StopSpammers";
+			Text = " No Spammers Found ";
+			Icon = "rbxassetid://101494751";
+			Duration = 8;
+		})   
+	elseif num == 2 then
+		game.StarterGui:SetCore("SendNotification", {
+			Title = " StopSpammers";
+			Text = " Spammers Found! ";
+			Icon = "rbxassetid://101494751";
+			Duration = 8;
+		})   
+	end
+
+end
+
+stspam.MouseButton1Down:connect(function()
+	r:Play()
+	r.Volume = 2
+	local CFRAME = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+	wait()
+	for key, val in pairs(game.Players:GetPlayers()) do
+		wait(.1)
+		oo = true
+		if val.Character:FindFirstChild("vest") ==  nil then
+			if	oo == true then
+				oo = false
+
+				num = 1			
+			end
+		else
+			num = 2
+			if num > 1 then
+				stspam_Roundify_12px.ImageColor3 = Color3.new(0, 1, 0)
+
+				print(val.Name)
+				repeat wait()
+					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =  val.Character.HumanoidRootPart.CFrame
+					if val.Name ~= game.Players.LocalPlayer.Name then
+						for i = 1, 100 do
+							game.ReplicatedStorage.meleeEvent:FireServer(val)
+						end
+					end
+
+				until val.Character.Humanoid.Health == 0
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFRAME
+
+
+				wait(1)
+				stspam_Roundify_12px.ImageColor3 = Color3.new(1, 0, 0)
+			end
+
+		end
+
+	end
+	wait(2)
+	oo = true
+
+end)
+
+game:GetService("Players").LocalPlayer.Chatted:connect(function(msg)
+	if (string.lower(msg) == "/e p") then
+		local savedk = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+		local M7 = 
+			{
+				game:GetService("Players").LocalPlayer,
+				"9","330","118"
+			}
+		game:GetService("Workspace").Remote.loadchar:InvokeServer(unpack(M7))
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = savedk
+	end
+end)
+
+
+arrestall.MouseButton1Down:connect(function()
+	r:Play()
+	r.Volume = 2
+	wait(0.1)
+	Player = game.Players.LocalPlayer
+	local Pcf = Player.Character.HumanoidRootPart.CFrame
+	for i,v in pairs(game.Teams.Criminals:GetPlayers()) do
+		if v.Name ~= Player.Name then
+			local i = 10
+			repeat
+				wait()
+				i = i-1
+				game.Workspace.Remote.arrest:InvokeServer(v.Character.HumanoidRootPart)
+				Player.Character.HumanoidRootPart.CFrame = v.Character.HumanoidRootPart.CFrame * CFrame.new(0, 0, 1)
+			until i == 0
+		end
+	end
+end)
+
+
+
+safenum = 0
+kinum = 0
+killall.MouseButton1Down:connect(function()
+	safenum = 0
+	kinum = 0
+	r:Play()
+	r.Volume = 2
+	if trus == true then
+		game.StarterGui:SetCore("SendNotification", {
+			Title = " COMMAND ";
+			Text =  "TURN OFF ANTISPAM";
+			Icon = "rbxassetid://1873197208";
+			Duration = 8;
+		})   
+
+	else
+		wait(.2)
+		local Teams = game.Players.LocalPlayer.TeamColor.Name
+		workspace.Remote.TeamEvent:FireServer("Medium stone grey")
+		game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["AK-47"].ITEMPICKUP) 
+		function kill()
+			local A_1 = {}
+			A_1[1] = {}
+			local x = 1
+			for key, val in pairs(game.Players:GetPlayers()) do
+				local f = nil
+				if val.Character:FindFirstChild("vest") ~= nil then
+					f = 9
+				else
+					f = 6
+				end
+				for e = 0, f do
+					A_1[x] = {
+						["RayObject"] = Ray.new(Vector3.new(845.555908, 101.429337, 2269.43945), Vector3.new(-391.152252, 8.65560055, -83.2166901)),
+						["Distance"] = 3.2524313126697,
+						["Cframe"] = CFrame.new(840.310791, 101.334137, 2267.87988, 0.0636406094, 0.151434347, -0.986416459, 0, 0.988420188, 0.151741937, 0.997972965, -0.00965694897, 0.0629036576),
+						["Hit"] = val.Character.Head
+					}
+					x = x + 1
+
+				end
+			end
+			local A_2 = game.Players.LocalPlayer.Backpack["AK-47"]
+			local Event = game:GetService("ReplicatedStorage").ShootEvent
+			Event:FireServer(A_1, A_2)
+
+		end
+		kill()
+		wait(0.5)
+		workspace.Remote.TeamEvent:FireServer(Teams)
+		game.Players.LocalPlayer.Character.Humanoid.Health = 0
+		lastPos = game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").position
+		plr = game.Players.LocalPlayer.Name
+		gayevent = game:GetService("Workspace").Remote.loadchar
+		gayevent:InvokeServer(plr)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(lastPos)	
+		for i, v in pairs(game.Players:GetPlayers()) do
+			safenum = safenum+1
+			if v.Character.Humanoid.Health == 0 then
+				kinum = kinum+1
+
+				notiflabel.Text = kinum.." killed of "..safenum
+
+
+			end
+		end
+	end
+end)
+
+
+
+kips = false
+cpkill = false
+inkill = false
+crimkill = false
+
+killaura.MouseButton1Down:connect(function()
+	r:Play()
+	r.Volume = 2
+	kips = true
+	killaura_Roundify_12px.ImageColor3 = Color3.new(0, 1, 0)
+	while kips == true do 
+		wait(0.5)
+		for i, plr in pairs(game.Players:GetChildren()) do
+			if plr.Name ~= game.Players.LocalPlayer.Name then
+				for i = 1, 10 do
+					game.ReplicatedStorage.meleeEvent:FireServer(plr)
+				end
+			end
+		end
+	end
+end)
+
+killaura.MouseButton2Down:connect(function()
+	killaura_Roundify_12px.ImageColor3 = Color3.new(1, 0, 0)
+	kips = false
+end)
+
+
+
+guardkillaura.MouseButton1Down:connect(function()
+	r:Play()
+	r.Volume = 2
+	guardkillaura_Roundify_12px.ImageColor3 = Color3.new(0, 1, 0)
+	cpkill = true
+	while cpkill == true do 
+		wait(0.5)
+		for m,b in pairs(game.Teams.Guards:GetPlayers()) do
+			if b.Name ~= game.Players.LocalPlayer.Name then
+				for i = 1, 10 do
+					game.ReplicatedStorage.meleeEvent:FireServer(b)
+				end
+			end
+		end
+	end
+end)
+
+inmatekillaura.MouseButton1Down:connect(function()
+	r:Play()
+	r.Volume = 2
+	inmatekillaura_Roundify_12px.ImageColor3 = Color3.new(0, 1, 0)
+	inkill = true
+	while inkill == true do 
+		wait(0.5)
+		for y,k in pairs(game.Teams.Inmates:GetPlayers()) do
+			if k.Name ~= game.Players.LocalPlayer.Name then
+				for i = 1, 10 do
+					game.ReplicatedStorage.meleeEvent:FireServer(k)
+				end
+			end
+		end
+	end
+end)
+
+crimkillaura.MouseButton1Down:connect(function()
+	r:Play()
+	r.Volume = 2
+	crimkillaura_Roundify_12px.ImageColor3 = Color3.new(0, 1, 0)
+	crimkill = true
+	while crimkill == true do 
+		wait(0.5)
+		for w,r in pairs(game.Teams.Criminals:GetPlayers()) do
+			if r.Name ~= game.Players.LocalPlayer.Name then
+				for i = 1, 10 do
+					game.ReplicatedStorage.meleeEvent:FireServer(r)
+				end
+			end
+		end
+	end
+end)
+
+
+
+crimkillaura.MouseButton2Down:connect(function()
+	crimkill = false
+	crimkillaura_Roundify_12px.ImageColor3 = Color3.new(1, 0, 0)
+end)
+
+guardkillaura.MouseButton2Down:connect(function()
+	cpkill = false
+	guardkillaura_Roundify_12px.ImageColor3 = Color3.new(0, 0, 1)
+end)
+
+inmatekillaura.MouseButton2Down:connect(function()
+	inkill = false
+	inmatekillaura_Roundify_12px.ImageColor3 = Color3.new(1, 0.666667, 0)
+end)
+
+rejoinb.MouseButton1Down:connect(function()
+	r:Play()
+	r.Volume = 2
+	ts = game:GetService("TeleportService")
+
+	jjhjj = game:GetService("Players").LocalPlayer
+
+
+	wait()
+	ts:Teleport(game.PlaceId, jjhjj)
+end)
+deaserver.MouseButton1Down:connect(function()
+	kuu = game:GetService("TeleportService")
+
+	ffse =155615604
+
+
+	wait()
+	kuu:Teleport(game.PlaceId, ffse)
+end)
+
+function over()
+	if lagnumber > 1000 then
+		lagnumber = 1000
+	end
+end
+
+function checking()
+	while true do
+		wait()
+		if jumps == false then
+			print("jumps = False")
+		end
+	end
+end
+
+while true do
+	wait()
+	
+	over()
+	under()
+	lagnum.Text = lagnumber
+
+	servernumslbl.Text = plnum.." Players of 24"
+	if plnum == 24 then
+		servernumslbl.Text = "MAX PLAYERS"
+		if plnum < 10 then
+			deaserver.Visible = true
+			deaserver:TweenPosition(UDim2.new(0.001, 0,0.43, 0),'Out','Sine',.5)
+		end
+	else
+		
+		deaserver:TweenPosition(UDim2.new(-0.0956199914, 0, 0.423832923, 0),'Out','Sine',.5)
+		wait(.5)
+deaserver.Visible = false
+	end
+	
+end
